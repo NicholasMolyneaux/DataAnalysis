@@ -1,0 +1,2596 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Wiki - Corrigés des exercices libres | Initiation à la programmation (en Java)</title>
+<link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/b445e99263dd0d72cfe645809d5e20743478718e/css/spark.main.css">
+<link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/970401/course.css">
+<link rel="icon" href="https://spark-public.s3.amazonaws.com/intro-java-fr/static/images/favicon.ico">
+<style type="text/css"> .coursera-reporter-link { display:inline-block;} </style><script type="text/javascript" src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head>
+
+<body><div id="MathJax_Message" style="display: none;"></div>
+    <a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#course-page-content" class="hidden">Skip Navigation</a>
+    <div class="hidden">
+        This page features MathJax technology to render mathematical formulae.
+        If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.
+    </div>
+
+    <h1 class="hidden">Initiation à la programmation (en Java)</h1>
+
+    <script type="text/javascript" async="" src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/204.min.js"></script><script type="text/javascript" async="" src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/ga.js"></script><script>window.onerror = function(message, url, lineNum) {
+
+  // First check the URL and line number of the error
+  url = url || window.location.href;
+  // 99% of the time, errors without line numbers arent due to our code,
+  // they are due to third party plugins and browser extensions
+  if (lineNum === undefined || lineNum == null) return;
+  
+  // Now figure out the actual error message
+  // If it's an event, as triggered in several browsers
+  if (message.target && message.type) {
+    message = message.type;
+  }
+  if (!message.indexOf) {
+    message = 'Non-string, non-event error: ' + (typeof message);
+  }
+  
+  var errorDescrip = {
+    message: message,
+    script: url,
+    line: lineNum,
+    url: document.URL
+  }
+  
+  var err = {
+    key: 'page.error.javascript', 
+    value: errorDescrip
+  }
+  
+  window._204 = window._204 || [];
+  window._204.push(err);
+  
+  window._gaq = window._gaq || [];
+  window._gaq.push(err);
+}</script>
+
+<div class="course-topbar container-fluid" role="banner">
+
+    <div class="row-fluid">
+
+        <div class="span3">
+          <a href="https://www.coursera.org/" class="course-topbar-logo" data-if-linkable="add-referrer"></a>
+        </div>
+
+        <div class="course-topbar-nav-container span9" style="float:right;">
+            <h2 class="hidden">Top Navigation Bar</h2>
+
+            <ul class="course-topbar-nav-list">
+                <li class="course-topbar-nav-list-item">
+                  <a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a>
+                </li>
+
+                
+                <li class="course-topbar-nav-list-item" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="" style="cursor:pointer;" data-popup-direction="se">
+                                        <a data-user-id="5263347">
+                        Nicholas Molyneaux                        <i class="icon-caret-down"></i>
+                    </a>
+                </li>
+
+                            </ul>
+        </div>
+    </div>
+
+    <div id="course-topbar-aboutus" class="course-topbar-sublist">
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/jobs" target="_new" data-if-linkable="add-referrer">Jobs</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/team" target="_new" data-if-linkable="add-referrer">Team</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/contact" target="_new" data-if-linkable="add-referrer">Contact Us</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/" target="_new" data-if-linkable="add-referrer">About Us</a>
+    </div>
+
+    <div id="course-topbar-my" class="course-topbar-sublist">
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/" target="_new">My Courses</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/profile" target="_new">Profile</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/records" target="_new">Course Records</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/settings" target="_new">Settings</a>
+                <a class="course-topbar-sublist-item" href="https://class.coursera.org/intro-java-fr-001/class/preferences">Course Preferences</a>
+        <a class="course-topbar-sublist-item" href="https://class.coursera.org/intro-java-fr-001/auth/logout">Sign Out</a>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="course-topbanner-wrapper">
+  <div class="course-topbanner">
+    <div class="course-topbanner-university-logo">
+      <a href="https://www.coursera.org/epfl" class="coursera-university-color" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/epfl">
+        <img src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/university_logo" alt="epfl">
+      </a>
+    </div>
+
+    
+    <h1 class="course-topbanner-header">
+      <a class="course-topbanner-name coursera-university-color" href="https://class.coursera.org/intro-java-fr-001/class/index" data-if-linkable="modal-lock">
+        Initiation à la programmation (en Java)      </a>
+      <br>
+      <span class="course-topbanner-instructor" style="">
+        by Vincent Lepetit, Jean-Cédric Chappelier, Jamila Sam      </span>
+    </h1>
+
+  </div>
+</div>
+
+        <div class="container-fluid" style="position:relative;">
+        <div class="row-fluid">
+            <div id="course-page-sidebar" role="navigation">
+                <div class="course-navbar-container">
+	<a href="https://class.coursera.org/intro-java-fr-001/class/index">
+	<img src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page">
+	</a>
+
+	<div data-coursera-course-search-nav-widget="" class="input-append course-search-nav-box">
+		<form class="form-inline minimized-search" method="get" action="https://class.coursera.org/intro-java-fr-001/class/search" data-js-search-form="">
+			<label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label>
+			<input id="course-search-nav-input" type="text" name="q" data-js-search-input="">&nbsp;
+			<button class="btn icon-search" type="submit">
+				<span class="accessible-text-for-reader">Search</span>
+			</button>
+		</form>
+	</div>
+
+<h2 class="hidden">Side Navigation Bar</h2>
+<ul class="course-navbar-list">
+		
+	<li class="course-navbar-item">
+					<h3>Cours</h3>
+			</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Annonces							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Vidéos							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=complements" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Compléments de cours							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=references" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Références							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+					<h3>Pratique</h3>
+			</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=install" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Installation							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Quiz							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=tutos" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Tutoriels							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=exercices" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Exercices conseillés							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Devoirs							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=moreexos" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Exercices supplémentaires							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item active">
+								<a href="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java).htm" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Corrigés des exercices conseillés							<span class="course-navbar-selected-marker">(selected)</span></a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=morecorriges" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Corrigés des exercices supplémentaires							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+					<h3>A propos du cours</h3>
+			</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=courselogistics" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Déroulement du cours							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=syllabus" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Syllabus							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=aboutus" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Contributeurs							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+					<h3>Communauté</h3>
+			</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Forum de discussion							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/intro-java-fr-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Surveys							</a>
+						</li>
+	
+	
+		<li class="course-navbar-item">
+		<a href="https://share.coursera.org/wiki/index.php/intro-java-fr:Main" target="_blank" class="coursera-university-color" title="Open course wiki in new window">
+			Course Wiki
+			<span class="icon-share"></span>
+		</a>
+	</li>
+		
+		<li class="course-navbar-item">
+		<a href="http://www.meetup.com/Coursera/" target="_blank" class="coursera-university-color">
+			Join a Meetup
+			<span class="icon-share"></span>
+		</a>
+	</li>
+	
+    </ul>
+
+<ul style="list-style-type:none;margin-left: 10px;">
+  <li><a href="http://help.coursera.org/" class="coursera-university-color" target="_blank" title="Open help articles in new window"><i class="icon-question-sign"></i> Help Articles</a></li>
+</ul>
+
+<ul style="list-style-type:none;margin-left: 10px;">
+		<li><a href="https://class.coursera.org/intro-java-fr-001/forum/list?forum_id=10000" class="coursera-university-color"><i class="icon-comments"></i> Course Materials Errors</a></li>
+	<li><a href="https://class.coursera.org/intro-java-fr-001/forum/list?forum_id=10001" class="coursera-university-color"><i class="icon-comments"></i> Technical Issues</a></li>
+
+</ul>
+
+</div>
+            </div>
+            <div id="course-page-content" role="main">
+                                
+
+<h2 class="course-page-header">
+    Corrigés des exercices libres    <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/intro-java-fr-001/help/pages?url=https%3A%2F%2Fclass.coursera.org%2Fintro-java-fr-001%2Fwiki%2Fview%3Fpage%3Dcorriges">
+      Help
+    </a>
+    <a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/pages/setup" title="Course Page Setup" style="display:none;">Learn more.</a>
+</h2>
+
+<div id="internal_html_page_content" dir="auto">
+
+<table><tbody>
+<tr>
+<th colspan="5" align="left">Semaine 1&nbsp;: variables, expressions</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo1">Exercice 1</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo2">Exercice 2</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo3">Exercice 3</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo4">Exercice 4</a>
+            </td>
+        </tr>
+<tr>
+<th colspan="5" align="left">Semaine 2&nbsp;: branchements conditionnels</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo5">Exercice 5</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo6">Exercice 6</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo7">Exercice 7</a>
+            </td>
+        </tr>
+<tr>
+<th colspan="5" align="left">Semaine 3&nbsp;: itérations, boucles</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo8">Exercice 8</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo9">Exercice 9</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo10">Exercice 10</a>
+            </td>
+        </tr>
+<tr>
+<th colspan="5" align="left">Semaine 4&nbsp;: tableaux de taille fixe</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo11">Exercice 11</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo12">Exercice 12</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo13">Exercice 13</a>
+            </td>
+        </tr>
+<tr>
+<th colspan="5" align="left">Semaine 5&nbsp;: tableaux dynamiques, chaînes de caractères</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo14">Exercice 14</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo15">Exercice 15</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo16">Exercice 16</a>
+            </td>
+
+        </tr>
+<tr>
+<th colspan="5" align="left">Semaine 6&nbsp;: fonctions/méthodes (modularisation)</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo17">Exercice 17</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo18">Exercice 18</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo19">Exercice 19</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo20">Exercice 20</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo21">Exercice 21</a>
+            </td>
+        </tr>
+<tr>
+<th colspan="5" align="left">Semaine 7&nbsp;: révisions</th>
+        </tr>
+<tr>
+<td width="30">&nbsp;</td>
+
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo22">Exercice 22</a>
+            </td>
+            <td width="120">
+<a href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo23">Exercice 23</a>
+            </td>
+            <td width="120">
+<a title="Link: #exo24" href="https://class.coursera.org/intro-java-fr-001/wiki/view?page=corriges#exo24">Exercice 24</a>
+            </td>
+
+        </tr>
+</tbody></table>
+<hr>Les corrigés proposés correspondent à l'ordre des apprentissages : chaque corrigé correspond à la solution à laquelle vous pourriez aboutir au moyen des connaissances acquises jusqu'à la semaine correspondante.
+
+<hr>
+<!-- =================================================================== --><hr>
+<h4><a title="Link: null" name="" link="exo1"> Exercice 1: Année de naissance (Opérateurs et expressions, Niveau 1)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #666666; ">// les directives import se placent en début de fichier</span>
+<span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Age {
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #000099; font-weight: bold">final</span> <span style="color: #000099; font-weight: bold">int</span> ANNEE_COURANTE = <span style="color: #660000; ">2013</span>; <span style="color: #666666; ">// on fera mieux plus tard !</span>
+
+        Scanner input = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+        System.out.println(<span style="color: #006600; ">"Donnez votre age : "</span>);
+
+        <span style="color: #000099; font-weight: bold">int</span> age = input.nextInt();
+
+        <span style="color: #000099; font-weight: bold">int</span> annee = ANNEE_COURANTE - age;
+
+        <span style="color: #666666; ">// à partir de la semaine prochaine on pourra</span>
+        <span style="color: #666666; ">// tester si l'utilisateur ne nous dit pas de bêtise sur son age !</span>
+
+        System.out.println(<span style="color: #006600; ">"Votre annee de naissance est : "</span> + annee);
+    }
+}</pre>
+Cette solution utilise le bagage actuel : celui avec lequel vous ne savez mettre des instructions que dans le corps de la méthode <tt class="code">main</tt>. L'objet <tt class="code">input</tt> de type <tt class="code">Scanner</tt> qui permet de lire des données
+introduites depuis le terminal est déclaré et initialisé dans la méthode <tt class="code">main</tt>.
+
+<p>Il est d'un usage plus courant en Java de déclarer-initialiser cet objet en dehors de <tt class="code">main</tt>, comme ceci&nbsp;:
+
+</p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">class</span> AgeBis
+{
+        <span style="color: #666666; ">// l'objet input est maintenant déclaré ici et plus dans le corps de main</span>
+             
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner input = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args)
+        {
+            <span style="color: #000099; font-weight: bold">final</span> <span style="color: #000099; font-weight: bold">int</span> ANNEE_COURANTE = <span style="color: #660000; ">2013</span>; <span style="color: #666666; ">// on fera mieux plus tard !</span>
+
+            System.out.println(<span style="color: #006600; ">"Donnez votre age : "</span>);
+
+            <span style="color: #000099; font-weight: bold">int</span> age = input.nextInt();
+            
+            <span style="color: #000099; font-weight: bold">int</span> annee = ANNEE_COURANTE - age;
+
+            <span style="color: #666666; ">// a partir de la semaine prochaine on pourra</span>
+            <span style="color: #666666; ">// tester si l'utilisateur ne nous dit pas de betise sur son age !</span>
+            
+            System.out.println(<span style="color: #006600; ">"Votre annee de naissance est : "</span> + annee);
+        }
+}</pre>
+
+
+<p><b>C'est sous cette forme que vous le trouverez donc le plus souvent dans les corrigés à venir</b>.
+
+</p>
+<p>Pour le moment les mots clés <tt class="code">static</tt> et <tt class="code">private</tt> sont à utiliser tels quels. Les raisons de leur utilisation dans ce contexte seront expliquées dans notre futur cours sur l'orienté-objet.
+
+</p>
+<hr>
+<h4><a name="exo2"> Exercice 2: Expression polynômiale (Opérateurs et expressions, Niveau 1)</a></h4>
+<p>
+    Le but est d'écrire un petit programme permettant d'évaluer un polynôme du 3ème degré de la forme:<font size="5">
+<br><br>
+((<i>a</i>+<i>b</i>)/2)<i>x</i></font><sup><font size="4">3</font></sup><font size="5"> + (<i>a</i>+<i>b</i>)</font><sup><font size="4">2</font></sup><font size="5"><i>x</i></font><sup><font size="4">2</font></sup><font size="5"> + <i>a</i> + <i>b</i> + <i>c</i></font> 
+    <br><br>On commence par lire les coefficients du polynôme:
+
+</p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+<span style="color: #000099; font-weight: bold">class</span> Degre3 {
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient a (int): "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> a = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient b (int) "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> b = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient c (int) "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> c = scanner.nextInt();
+    }
+}</pre>
+on fait pareil pour la variable, mais cette fois c'est un double:
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+<span style="color: #000099; font-weight: bold">class</span> Degre3 {
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient a (int): "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> a = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient b (int) "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> b = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient c (int) "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> c = scanner.nextInt();
+        
+        System.out.print(<span style="color: #006600; ">"Entrez la valeur de la variable x (double) "</span>);
+        <span style="color: #000099; font-weight: bold">double</span> x = scanner.nextDouble();
+    }
+}</pre>
+Ensuite il faut coder la formule. On peut remarquer alors que <tt class="code">a+b</tt> et <tt class="code">x*x</tt>
+interviennent plusieurs fois dans le calcul. Pour éviter d'avoir à les recalculer deux fois, on peut les stocker dans des variables intermédiaires. On fait ensuite le calcul et on affiche le résultat:
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Degre3 {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient a (int) : "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> a = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient b (int) : "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> b = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez le coefficient c (int) : "</span>);
+        <span style="color: #000099; font-weight: bold">double</span> c = scanner.nextInt();
+
+        System.out.print(<span style="color: #006600; ">"Entrez la valeur de la variable x (double) : "</span>);
+        <span style="color: #000099; font-weight: bold">double</span> x = scanner.nextDouble();
+
+        <span style="color: #000099; font-weight: bold">double</span> xx = x * x;
+        <span style="color: #000099; font-weight: bold">double</span> aux = a + b;
+        <span style="color: #000099; font-weight: bold">double</span> valeur = aux/<span style="color: #660000; ">2</span> * x * xx + aux * aux * xx + aux +c;
+        System.out.println(<span style="color: #006600; ">"La valeur de l'expression est: "</span> + valeur);
+    }
+}</pre>
+Attention! Pour que le calcul de <tt class="code">(a+b)/2</tt> se fasse correctement (sans troncature due à la division entière), il est indispensable que la variable intermédiaire <tt class="code">aux</tt> soit déclarée comme <tt class="code">double</tt>.
+<p></p>
+<hr>
+<h4><a name="exo3"> Exercice 3: Variable, affectation (Opérateurs et expressions, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Permutation {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        System.out.print(<span style="color: #006600; ">"Entrez x: "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> x = scanner.nextInt();
+
+        System.out.print(<span style="color: #006600; ">"Entrez y: "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> y = scanner.nextInt();
+
+        System.out.println(<span style="color: #006600; ">"Avant permutation: "</span>);
+        System.out.println(<span style="color: #006600; ">"x : "</span> + x);
+        System.out.println(<span style="color: #006600; ">"y : "</span> + y);
+
+        <span style="color: #000099; font-weight: bold">int</span> tmp = x;
+        x = y;
+        y = tmp;
+
+        System.out.println(<span style="color: #006600; ">"Après permutation: "</span>);
+        System.out.println(<span style="color: #006600; ">"x : "</span> + x);
+        System.out.println(<span style="color: #006600; ">"y : "</span> + y);
+    }
+}</pre>
+
+<hr>
+<h4><a title="Link: null" name="exo4"> Exercice 4: Un peu de tout, division d'entiers (Opérateurs et expressions, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> RosesBlanches {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String args[]) {
+        <span style="color: #666666; ">// Entrée de données</span>
+        System.out.print(<span style="color: #006600; ">"Combien avez-vous reçu d'argent (Frs):) "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> budget = scanner.nextInt();
+
+        <span style="color: #666666; ">// Calcul du budget livres &amp; fournitures</span>
+        <span style="color: #000099; font-weight: bold">int</span> budgetLivres = budget * <span style="color: #660000; ">3</span> / <span style="color: #660000; ">4</span>;
+        <span style="color: #000099; font-weight: bold">int</span> resteBudget = budget - budgetLivres;
+
+        <span style="color: #666666; ">// Calcul du budget pour les trois autres rubriques</span>
+        <span style="color: #000099; font-weight: bold">int</span> autre = resteBudget / <span style="color: #660000; ">3</span>;
+
+        <span style="color: #666666; ">// Calcul du nombre de cafés</span>
+        <span style="color: #000099; font-weight: bold">int</span> nbcafes = autre / <span style="color: #660000; ">2</span>;
+
+        <span style="color: #666666; ">// Calcul du nombre de numéros du Flash</span>
+        <span style="color: #000099; font-weight: bold">int</span> nbFlash = autre / <span style="color: #660000; ">4</span>;
+
+        <span style="color: #666666; ">// Calcul du nombre de billets de TSOL</span>
+        <span style="color: #000099; font-weight: bold">int</span> nbBillets = autre / <span style="color: #660000; ">3</span>;
+
+        <span style="color: #666666; ">// Calcul de l'argent restant</span>
+        <span style="color: #000099; font-weight: bold">int</span> reste = autre % <span style="color: #660000; ">2</span> + autre % <span style="color: #660000; ">4</span> + autre % <span style="color: #660000; ">3</span> + resteBudget % <span style="color: #660000; ">3</span>;
+
+        <span style="color: #666666; ">// Affichage des résultats</span>
+        System.out.println(<span style="color: #006600; ">"Livres et Fournitures: "</span> + budgetLivres + <span style="color: #006600; ">" Frs."</span>);
+        System.out.println(<span style="color: #006600; ">"Vous pouvez ensuite acheter:"</span>);
+        System.out.println(<span style="color: #006600; ">" "</span> + nbcafes + <span style="color: #006600; ">" cafés à Sat"</span>);
+        System.out.println(<span style="color: #006600; ">" "</span> + nbFlash + <span style="color: #006600; ">" numéros du Flash"</span>);
+        System.out.println(<span style="color: #006600; ">" "</span> + nbBillets + <span style="color: #006600; ">" billets de TSOL"</span>);
+        System.out.println(<span style="color: #006600; ">"et il vous restera "</span> + reste + <span style="color: #006600; ">" Frs pour les roses blanches."</span>);
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo5"> Exercice 5: Quand c'est pas pair c'est impair (if, Niveau 1)</a></h4>
+<p>
+    Dans cette exercice, le test sur la parité d'un nombre se fait en examinant le reste de la division entière (opérateur <tt class="code">%</tt>) par 2 : si ce reste est nul, le nombre est pair. Les tests nécessaires pour vérifier la parité d'un nombre
+    seront faits au moyen de <tt class="code">if</tt> imbriqués. Dans la ligne 14, on teste si le nombre est nul (c'est le cas le plus simple). Si ce n'est pas le cas nous faisons un premier test pour savoir si le nombre est positif ou négatif (lignes 18
+    - 23), puis s'il est pair ou impair (lignes 28 - 32).
+</p>
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">class</span> PairImpair {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #666666; ">// Demander une valeur à l'utilisateur</span>
+        System.out.print(<span style="color: #006600; ">"Entrez un nombre entier:"</span>);
+        <span style="color: #000099; font-weight: bold">int</span> number = scanner.nextInt();
+
+        <span style="color: #666666; ">// Premièrement, on vérifie si le nombre est zéro, car</span>
+        <span style="color: #666666; ">// dans ce cas le test de parité n'est pas nécessaire</span>
+        <span style="color: #000099; font-weight: bold">if</span> (number == <span style="color: #660000; ">0</span>) {
+            System.out.println(<span style="color: #006600; ">"Le nombre est zéro (et il est pair)"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            <span style="color: #666666; ">// S'il n'est pas nul, voyons quel est son signe</span>
+            <span style="color: #000099; font-weight: bold">if</span> (number &lt; <span style="color: #660000; ">0</span>) {
+                <span style="color: #666666; ">//Note: System.out.print ne commence pas de nouvelle ligne</span>
+                System.out.print(<span style="color: #006600; ">"Le nombre est négatif "</span>);
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                System.out.print(<span style="color: #006600; ">"Le nombre est positif "</span>);
+            }
+
+            <span style="color: #666666; ">// Teste la parité: si le reste de la division par deux est zéro</span>
+            <span style="color: #666666; ">// alors le nombre est pair</span>
+            <span style="color: #000099; font-weight: bold">int</span> reste = number % <span style="color: #660000; ">2</span>;
+            <span style="color: #000099; font-weight: bold">if</span> (reste == <span style="color: #660000; ">0</span>) {
+                System.out.println(<span style="color: #006600; ">"et pair"</span>);
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                System.out.println(<span style="color: #006600; ">"et impair"</span>);
+            }
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo6"> Exercice 6: Dans l'intervalle ... ou pas (if, expressions logiques, Niveau 2)</a></h4>
+<p></p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Intervalle {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">final</span> Scanner clavier = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #666666; ">// demande à l'utilisateur d'entrer un réel</span>
+        System.out.print(<span style="color: #006600; ">"Entrez un réel : "</span> );
+        <span style="color: #666666; ">// déclare x et l'initialise via une interaction clavier</span>
+        <span style="color: #000099; font-weight: bold">double</span> x = clavier.nextDouble();
+
+        <span style="color: #000099; font-weight: bold">if</span> ((!(x &lt; <span style="color: #660000; ">2.0</span>) &amp;&amp; (x &lt;  <span style="color: #660000; ">3.0</span>))
+                    || (!(x &lt; <span style="color: #660000; ">0.0</span>) &amp;&amp; !(x == <span style="color: #660000; ">0.0</span>) &amp;&amp; ((x &lt;  <span style="color: #660000; ">1.0</span>) || (x ==  <span style="color: #660000; ">1.0</span>)))
+                    || (!(x &lt; -10.0) &amp;&amp; ((x &lt; -2.0) || (x == -2.0)))) {
+            System.out.println(<span style="color: #006600; ">"x appartient à I"</span>) ;
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            System.out.println(<span style="color: #006600; ">"x n'appartient pas à I"</span>);
+        }
+    }
+}</pre>
+
+<p></p>
+<hr>
+<h4><a name="exo7"> Exercice 7: Expressions mathématiques (if, expressions arithmétiques, Niveau 2)</a></h4>
+<p></p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Formules {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">final</span> <span style="color: #000099; font-weight: bold">static</span> Scanner clavier = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #666666; ">// message</span>
+        System.out.print(<span style="color: #006600; ">"Entrez un nombre réel : "</span>);
+        <span style="color: #666666; ">// déclaration et lecture de x</span>
+        <span style="color: #000099; font-weight: bold">double</span> x = clavier.nextDouble();
+
+        <span style="color: #000099; font-weight: bold">double</span> resultat = <span style="color: #660000; ">0.0</span>;
+
+        <span style="color: #666666; ">// Expression 1</span>
+        System.out.print(<span style="color: #006600; ">"Expression 1 : "</span>);
+        <span style="color: #000099; font-weight: bold">if</span> (x == <span style="color: #660000; ">0.0</span>) {
+            System.out.println(<span style="color: #006600; ">"indéfinie"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            resultat = x / (<span style="color: #660000; ">1.0</span> - Math.exp(x));
+            System.out.println(resultat);
+        }
+
+        <span style="color: #666666; ">// Expression 2</span>
+        System.out.print(<span style="color: #006600; ">"Expression 2 : "</span>);
+        <span style="color: #000099; font-weight: bold">if</span> ((x &lt;= <span style="color: #660000; ">0.0</span>) || (x == <span style="color: #660000; ">1.0</span>)) {
+            System.out.println(<span style="color: #006600; ">"indéfinie"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            resultat = x * Math.log(x) * Math.exp(<span style="color: #660000; ">2.0</span> / (x-1.0)) ;
+            System.out.println(resultat);
+        }
+
+        <span style="color: #666666; ">// Expression 3</span>
+        System.out.print(<span style="color: #006600; ">"Expression 3 : "</span>);
+        <span style="color: #000099; font-weight: bold">if</span> ( (x &gt; <span style="color: #660000; ">0.0</span>) &amp;&amp; (x &lt; <span style="color: #660000; ">8.0</span>) ) {
+            System.out.println(<span style="color: #006600; ">"indéfinie"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            resultat = (-x - Math.sqrt(x * x - <span style="color: #660000; ">8.0</span> * x) ) / (<span style="color: #660000; ">2.0</span> - x) ;
+            System.out.println(resultat);
+        }
+
+        <span style="color: #666666; ">// Expression 4</span>
+        System.out.print(<span style="color: #006600; ">"Expression 4 : "</span>);
+        <span style="color: #000099; font-weight: bold">if</span> ((x &lt;= <span style="color: #660000; ">1.0</span> ) &amp;&amp; (x &gt;= <span style="color: #660000; ">0.0</span>)) {
+            System.out.println(<span style="color: #006600; ">"indéfinie"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            resultat = (Math.sin(x) - x / <span style="color: #660000; ">20.0</span>) * Math.log(Math.sqrt(x * x - <span style="color: #660000; ">1.0</span> / x));
+            <span style="color: #000099; font-weight: bold">if</span> (resultat &lt; <span style="color: #660000; ">0.0</span>) {
+                System.out.println(<span style="color: #006600; ">"indéfinie"</span>);
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                System.out.println(Math.sqrt(resultat));
+            }
+        }
+    }
+}</pre>
+
+<p></p>
+<hr>
+<h4><a name="exo8"> Exercice 8: Tables de multiplications (for, Niveau 1)</a></h4>
+<p></p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">class</span> Tables {
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        System.out.println(<span style="color: #006600; ">"     Tables de multiplication"</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">2</span>; i &lt;= <span style="color: #660000; ">10</span>; ++i) {
+            <span style="color: #666666; ">// \n est un saut de ligne </span>
+            System.out.println(<span style="color: #006600; ">"\n Table de "</span> + i + <span style="color: #006600; ">" :"</span>); 
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j =<span style="color: #660000; "> 1</span>; j &lt;= <span style="color: #660000; ">10</span>; ++j) { 
+                System.out.println(<span style="color: #006600; ">"    "</span> + j + <span style="color: #006600; ">" * "</span> + i + <span style="color: #006600; ">" = "</span> + i*j); 
+            }
+        }
+    }
+}</pre>
+
+<p></p>
+<hr>
+<h4><a name="exo9"> Exercice 9: Plus Grand Diviseur Commun (if, boucles, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> PGDC {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        System.out.println(<span style="color: #006600; ">"Calcul du plus grand  diviseur commun de deux nombres entiers positifs."</span>);
+        <span style="color: #666666; ">// Entrée des données</span>
+        System.out.print(<span style="color: #006600; ">"Entrez un nombre positif :  "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> nb1 = scanner.nextInt();
+        System.out.print(<span style="color: #006600; ">"Entrez un nombre positif :  "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> nb2 = scanner.nextInt();
+
+        <span style="color: #666666; ">/* </span>
+<span style="color: #666666; ">         * A chaque passage de la boucle while, on modifie le plus grand</span>
+<span style="color: #666666; ">         * de a et b en déduisant le nombre plus petit, comme indiqué par</span>
+<span style="color: #666666; ">         * la formule d'Euclide. La boucle se terminera quand a et b sont</span>
+<span style="color: #666666; ">         * égaux (au pire des cas quand ils valent 1). A ce moment-là, on</span>
+<span style="color: #666666; ">         * retourne la valeur de a (on aurait aussi pu retourner b). </span>
+<span style="color: #666666; ">         */</span>
+        <span style="color: #000099; font-weight: bold">int</span> a = nb1;
+        <span style="color: #000099; font-weight: bold">int</span> b = nb2;
+
+        <span style="color: #000099; font-weight: bold">while</span> (a != b) {
+            <span style="color: #000099; font-weight: bold">if</span> (a &gt; b) {
+                a = a - b;
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                b = b - a;
+            }
+        }
+
+        System.out.println(<span style="color: #006600; ">"Le plus grand diviseur commun de "</span> + nb1 + <span style="color: #006600; ">" et "</span> + nb2 + <span style="color: #006600; ">" est "</span> + a);
+    }
+}</pre>
+
+<p>Note : Il existe une solution dite <em>récursive</em> du calcul du PGDC un peu plus intuitive à écrire.
+</p>
+<p></p>
+<hr>
+<h4><a title="Link: null" name="exo10"> Exercice 10: Rebonds de balles (for, do while, Niveau 2)</a></h4>
+<p></p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">class</span> Rebonds1 {
+
+    <span style="color: #666666; ">//Constante de gravité</span>
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">final</span> <span style="color: #000099; font-weight: bold">double</span> G = <span style="color: #660000; ">9.81</span>;
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #666666; ">// Déclarations</span>
+        <span style="color: #666666; ">// vitesses avant et après le rebond</span>
+        <span style="color: #000099; font-weight: bold">double</span> v = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> v1 = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #666666; ">// hauteur avant le rebond, hauteur de remontée</span>
+        <span style="color: #000099; font-weight: bold">double</span> h = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> h1 = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #666666; ">// hauteur initiale</span>
+        <span style="color: #000099; font-weight: bold">double</span> H0 = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #666666; ">// valeur epsilon</span>
+        <span style="color: #000099; font-weight: bold">double</span> eps = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #666666; ">// nombre de rebonds</span>
+        <span style="color: #000099; font-weight: bold">int</span> NBR = <span style="color: #660000; ">0</span>;
+
+        <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">         * Entrée des valeurs par l'utilisateur,</span>
+<span style="color: #666666; ">         * avec test de validité</span>
+<span style="color: #666666; ">         */</span>
+
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Coefficient de rebond (0 &lt;= coeff &lt; 1) : "</span>);
+            eps = scanner.nextDouble();
+        } <span style="color: #000099; font-weight: bold">while</span> ((eps &lt; <span style="color: #660000; ">0.0</span>) || (eps &gt;= <span style="color: #660000; ">1.0</span>));
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Hauteur initiale      (0 &lt;= H0)        : "</span>);
+            H0 = scanner.nextDouble();
+        } <span style="color: #000099; font-weight: bold">while</span> (H0 &lt; <span style="color: #660000; ">0.0</span>);
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Nombre de rebonds     (0 &lt;= N )        : "</span>);
+            NBR = scanner.nextInt();
+        } <span style="color: #000099; font-weight: bold">while</span> (NBR &lt; <span style="color: #660000; ">0</span>);
+
+        <span style="color: #666666; ">// Boucle de calcul</span>
+        h = H0;
+        <span style="color: #666666; ">// on fait une itération par rebond</span>
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> nombre = <span style="color: #660000; ">0</span>; nombre &lt; NBR; ++nombre) {
+            v  = Math.sqrt(<span style="color: #660000; ">2.0</span> * G * h);
+            <span style="color: #666666; ">// vitesse après le rebond</span>
+            v1 = eps * v;
+            <span style="color: #666666; ">// la hauteur à laquelle elle remonte...</span>
+            h1 =(v1 * v1) / (<span style="color: #660000; ">2.0</span> * G);
+            <span style="color: #666666; ">// ...qui devient la nouvelle hauteur initiale</span>
+            h  = h1;
+            System.out.println(<span style="color: #006600; ">"rebond "</span> + (nombre+1) + <span style="color: #006600; ">" : "</span> + h);
+        }
+
+        <span style="color: #666666; ">/* Affichage du résultat */</span>
+        System.out.println(<span style="color: #006600; ">"Au "</span> + NBR + <span style="color: #006600; ">"eme rebond, la hauteur sera de "</span> + h + <span style="color: #006600; ">"m."</span>);
+    }
+}</pre>
+
+<p></p>
+<p></p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">class</span> Rebonds2 {
+
+    <span style="color: #666666; ">//Constante de gravité</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">final</span> <span style="color: #000099; font-weight: bold">double</span> GRAVITE = <span style="color: #660000; ">9.81</span>;
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #666666; ">// Déclarations</span>
+        <span style="color: #666666; ">// vitesses avant et après le rebond</span>
+        <span style="color: #000099; font-weight: bold">double</span> v = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> v1 = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #666666; ">// hauteur avant le rebond, hauteur de remontée</span>
+        <span style="color: #000099; font-weight: bold">double</span> h = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> h1 = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> h0 = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> eps = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">double</span> h_fin = <span style="color: #660000; ">0.0</span>;
+
+        <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">         * Entrée des valeurs par l'utilisateur,</span>
+<span style="color: #666666; ">         * avec test de validité</span>
+<span style="color: #666666; ">         */</span>
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Coefficient de rebond (0 &lt;= coeff &lt; 1) : "</span>);
+            eps = scanner.nextDouble();
+        } <span style="color: #000099; font-weight: bold">while</span> ((eps &lt; <span style="color: #660000; ">0.0</span>) || (eps &gt;= <span style="color: #660000; ">1.0</span>));
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Hauteur initiale      (0 &lt;= H0)        : "</span>);
+            h0 = scanner.nextDouble();
+        } <span style="color: #000099; font-weight: bold">while</span> (h0 &lt; <span style="color: #660000; ">0.0</span>);
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.println(<span style="color: #006600; ">"Hauteur finale  (0 &lt;= h_fin ) : "</span>);
+            h_fin = scanner.nextDouble();
+        } <span style="color: #000099; font-weight: bold">while</span> (h_fin &lt; <span style="color: #660000; ">0.0</span> || h_fin &gt; h0);
+
+        <span style="color: #666666; ">// Boucle de calcul</span>
+        h = h0;
+        <span style="color: #000099; font-weight: bold">int</span> count = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">do</span> {
+            v = Math.sqrt(<span style="color: #660000; ">2.0</span> * GRAVITE * h);
+            <span style="color: #666666; ">// vitesse après le rebond</span>
+            v1 = eps * v;
+            <span style="color: #666666; ">// incrémente le nombre de rebonds</span>
+            count++;
+            <span style="color: #666666; ">// la hauteur à laquelle elle remonte...</span>
+            h1 = (v1 * v1) / (<span style="color: #660000; ">2.0</span> * GRAVITE);
+            <span style="color: #666666; ">// ...qui devient la nouvelle hauteur initiale</span>
+            h  = h1;
+
+            System.out.println(<span style="color: #006600; ">"rebond "</span> + count + <span style="color: #006600; ">" : "</span> + h );
+        } <span style="color: #000099; font-weight: bold">while</span> (h1 &gt; h_fin);
+
+        <span style="color: #666666; ">// Affichage du résultat</span>
+        System.out.println(<span style="color: #006600; ">"Nombre de rebonds :"</span> + count);
+    }
+}</pre>
+
+<p></p>
+<hr>
+<h4><a name="exo11"> Exercice 11: Produit scalaire (Tableaux statiques, Niveau 1)</a></h4>
+Les tableaux, ici à une dimension, sont typiquement parcourus au moyen de boucles <tt class="code">for</tt>. Ces boucles sont utilisées pour remplir les vecteurs (par lecture de <tt class="code">double</tt>s) et pour effectuer le calcul du produit scalaire.
+La principale chose à remarquer ici est qu'avec les moyens à disposition au moment de la série, on ne sait pas réutiliser des portions de code lorsqu'elles sont requises à plusieurs endroits du programme (exemple: la lecture des vecteurs). Ceci implique
+que le code concerné est tout simplement dupliqué. Nous verrons à partir du cours prochain comment améliorer cet état des choses.
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Scalaire {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #000099; font-weight: bold">int</span> nMax = <span style="color: #660000; ">10</span>;
+        <span style="color: #000099; font-weight: bold">int</span> n = <span style="color: #660000; ">0</span>;
+
+        <span style="color: #666666; ">// On exige l'introduction d'un entier entre 0 et 10</span>
+        <span style="color: #000099; font-weight: bold">while</span> (n &lt; <span style="color: #660000; ">1</span> || n &gt; nMax) {
+            System.out.print(<span style="color: #006600; ">"Quelle taille pour vos vecteurs [entre 1 et "</span> 
+                        + nMax + <span style="color: #006600; ">"] ? "</span>);
+            n = scanner.nextInt();
+        }
+
+        <span style="color: #666666; ">// Déclaration-construction des deux vecteurs</span>
+        <span style="color: #000099; font-weight: bold">double</span> [] v1 = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span> [n];
+        <span style="color: #000099; font-weight: bold">double</span> [] v2 = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span> [n];
+
+        System.out.println(<span style="color: #006600; ">"Saisie du premier vecteur :"</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++) {
+            System.out.print(<span style="color: #006600; ">" v1["</span> + i + <span style="color: #006600; ">"] = "</span>);
+            v1[i] = scanner.nextDouble();
+        }
+
+        System.out.println(<span style="color: #006600; ">"Saisie du second vecteur :"</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++) {
+            System.out.print(<span style="color: #006600; ">" v2["</span> + i + <span style="color: #006600; ">"] = "</span>);
+            v2[i] = scanner.nextDouble();
+        }
+
+        <span style="color: #666666; ">// Calcul du produit scalaire</span>
+        <span style="color: #000099; font-weight: bold">double</span> somme = <span style="color: #660000; ">0.0</span>;
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; v1.length; i++) {
+            somme += v1[i] * v2[i];
+        }
+
+        System.out.println(<span style="color: #006600; ">"Le produit scalaire de v1 par v2 vaut "</span> + somme);
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo12"> Exercice 12: Multiplication de matrices (Tableaux à deux dimensions, Niveau 2)</a></h4>
+<p>
+    Encore un tableau à deux dimensions, mais cette fois il y a plusieurs tests d'intégrité à effectuer (taille non-nulle des matrices, matrices de tailles compatibles pour la mutliplication etc...)
+    <br>La remarque faite lors des deux exercices précédents est valable ici aussi: des parties importantes du codes sont dupliquées. La série 5 vous permettra de reprendre ce code en remédiant à cette situation.
+</p>
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> MulMat {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #000099; font-weight: bold">int</span> lignes = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">int</span> colonnes = <span style="color: #660000; ">0</span>;
+
+        <span style="color: #666666; ">// Saisie de la 1ère matrice</span>
+        System.out.println(<span style="color: #006600; ">"Saisie de la 1ere matrice :"</span>);
+
+        <span style="color: #666666; ">// On vérifie que le nombre de lignes est plus grand que 0</span>
+        <span style="color: #000099; font-weight: bold">while</span> (lignes &lt; <span style="color: #660000; ">1</span>) {
+            System.out.print(<span style="color: #006600; ">"Nombre de lignes : "</span>);
+            lignes = scanner.nextInt();
+        }
+
+        <span style="color: #666666; ">// On vérifie que le nombre de colonnes est plus grand que 0</span>
+        <span style="color: #000099; font-weight: bold">while</span> (colonnes &lt; <span style="color: #660000; ">1</span>) {
+            System.out.print(<span style="color: #006600; ">"Nombre de colonnes : "</span>);
+            colonnes = scanner.nextInt();
+        }
+
+        <span style="color: #666666; ">// Déclaration-construction de la 1ère matrice</span>
+        <span style="color: #000099; font-weight: bold">double</span>[][] mat1 = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span>[lignes][colonnes];
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; lignes; row++) {
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; colonnes; col++) {
+                System.out.print(<span style="color: #006600; ">"  M["</span> + (row + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">","</span> + (col + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">"]="</span>);
+                mat1[row][col] = scanner.nextDouble();
+            }
+        }
+
+
+        <span style="color: #666666; ">// ... et on refait la même chose pour la 2ème matrice</span>
+        lignes = <span style="color: #660000; ">0</span>;
+        colonnes = <span style="color: #660000; ">0</span>;
+
+        System.out.println(<span style="color: #006600; ">"Saisie de la 2eme matrice :"</span>);
+        <span style="color: #000099; font-weight: bold">while</span> (lignes &lt; <span style="color: #660000; ">1</span>) {
+            System.out.print(<span style="color: #006600; ">"Nombre de lignes : "</span>);
+            lignes = scanner.nextInt();
+        }
+
+        <span style="color: #000099; font-weight: bold">while</span> (colonnes &lt; <span style="color: #660000; ">1</span>) {
+            System.out.print(<span style="color: #006600; ">"Nombre de colonnes : "</span>);
+            colonnes = scanner.nextInt();
+        }
+
+        <span style="color: #000099; font-weight: bold">double</span>[][] mat2 = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span>[lignes][colonnes];
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; lignes; row++) {
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; colonnes; col++) {
+                System.out.print(<span style="color: #006600; ">"  M["</span> + (row + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">","</span> + (col + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">"]="</span>);
+                mat2[row][col] = scanner.nextDouble();
+            }
+        }
+
+        <span style="color: #666666; ">// Ici on multiplie les matrices</span>
+        <span style="color: #000099; font-weight: bold">if</span> (mat1[<span style="color: #660000; ">0</span>].length != mat2.length) {
+            System.out.println(<span style="color: #006600; ">"Multiplication de matrices impossible !"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            <span style="color: #666666; ">// Déclaration-construction de la matrice résultat</span>
+            <span style="color: #000099; font-weight: bold">double</span>[][] prod = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span>[mat1.length][mat2[<span style="color: #660000; ">0</span>].length];
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; mat1.length; row++) {
+                <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; mat2[<span style="color: #660000; ">0</span>].length; col++) {
+                    prod[row][col] = <span style="color: #660000; ">0.0</span>;
+                    <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; mat2.length; i++) {
+                        prod[row][col] += mat1[row][i] * mat2[i][col];
+                    }
+                }
+            }
+
+            <span style="color: #666666; ">// Affichage du résultat</span>
+            System.out.println(<span style="color: #006600; ">"Resultat :"</span>);
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; prod.length; row++) {
+                <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; prod[row].length; col++) {
+                    System.out.print(prod[row][col] + <span style="color: #006600; ">" "</span>);
+                }
+                System.out.println();
+            }
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo13"> Exercice 13: Triangle de Pascal (Tableaux, Niveau 2)</a></h4>
+<p>
+    On a encore affaire à un tableau en deux dimensions, mais cette fois avec un nombre variable de colonnes sur chaque ligne. Ceci permet d'optimiser l'espace de stockage requis en tenant compte du fait que, pour un triangle de Pascal, certains éléments
+    ne sont pas définis (exemple l'élément d'indices [0][2] n'existe pas). La matrice calculée a ici une forme triangulaire.
+</p>
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Pascal {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #000099; font-weight: bold">int</span> size = <span style="color: #660000; ">0</span>;
+
+        <span style="color: #666666; ">// On demande la taille</span>
+        System.out.println(<span style="color: #006600; ">"Taille du triangle de Pascal : "</span>);
+        size = scanner.nextInt();
+
+        <span style="color: #666666; ">// Ici on déclare le tableau, mais on ne construit que la première</span>
+        <span style="color: #666666; ">// dimension</span>
+        <span style="color: #000099; font-weight: bold">int</span>[][] triangle = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">int</span>[size][];
+
+        <span style="color: #666666; ">// On construit et initialise la 1ère ligne</span>
+        triangle[<span style="color: #660000; ">0</span>] = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">int</span>[<span style="color: #660000; ">1</span>];
+        triangle[<span style="color: #660000; ">0</span>][<span style="color: #660000; ">0</span>] = <span style="color: #660000; ">1</span>;
+
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">1</span>; row &lt; size; row++) {
+
+            <span style="color: #666666; ">// Chaque ligne du triangle est un tableau à une dimension</span>
+            <span style="color: #666666; ">// dont la taille est celle de la ligne precedente + 1:</span>
+            <span style="color: #666666; ">// on construit ces lignes (new) au fur et à mesure que l'on</span>
+            <span style="color: #666666; ">// progresse dans le tableau</span>
+            triangle[row] = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">int</span> [triangle[row - <span style="color: #660000; ">1</span>].length + <span style="color: #660000; ">1</span>];
+
+            <span style="color: #666666; ">// Remplissage du tableau:</span>
+            <span style="color: #666666; ">// les deux éléments aux deux extrémités des lignes valent 1.</span>
+            <span style="color: #666666; ">// Les autres sont liés par la relation:</span>
+            <span style="color: #666666; ">// triangle[row][j]= triangle[row-1][j-1] + triangle[row-1][j]</span>
+
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt;= row; col++) {
+                <span style="color: #000099; font-weight: bold">if</span> ((col == <span style="color: #660000; ">0</span>) || (col == row)) {
+                    triangle[row][col] = <span style="color: #660000; ">1</span>;
+                } <span style="color: #000099; font-weight: bold">else</span> {
+                    triangle[row][col] = triangle[row - <span style="color: #660000; ">1</span>][col - <span style="color: #660000; ">1</span>]
+                            + triangle[row - <span style="color: #660000; ">1</span>][col];
+                }
+            }
+        }
+
+        <span style="color: #666666; ">// Affichage du tableau</span>
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; size; row++) {
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt;= row; col++) {
+                System.out.print(triangle[row][col] + <span style="color: #006600; ">" "</span>);
+            }
+            System.out.println();
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo14"> Exercice 14: Échauffement avec les tableaux dynamique (Tableaux dynamiques, Niveau 1)</a></h4>
+
+<strong>A)</strong>
+
+<p>Le code fourni remplit le tableau <code>tab</code> (de taille 10) d'éléments allant de 0 à 9.
+
+</p>
+<p>En effet, <code>add</code> ajoute un élément à la fin du tableau. Au moment de l'ajout <code>tab.size()</code> vaut la taille du tableau avant l'ajout (puisque l'élément n'est pas encore ajouté).
+
+</p>
+<p><b>Vérification</b> : Le code suivant :
+</p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">for</span>(Integer i : tab){
+   System.out.println(i);
+}</pre>
+placé à la fin du programme, affichera&nbsp;:
+<pre class="console">0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre>
+<p> <strong>B)</strong>
+
+</p>
+<p>Ajoute à la fin de <code>tab2</code> un tableau de même taille que <code>tab1</code> et contenant que des éléments de même valeur : la valeur du premier élément de <code>tab1</code> à savoir <code>99</code>. L'affichage du contenu de <code>tab2</code> selon le
+    même procédé que précédemment donnerait l'affichage suivant&nbsp;:
+</p>
+<pre class="console">99
+99
+99
+</pre>
+<hr>
+<h4><a name="exo15"> Exercice 15: Nombres premiers (Tableaux dynamiques, Niveau 2)</a></h4>
+
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.ArrayList;
+
+<span style="color: #000099; font-weight: bold">class</span> Premiers {
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #666666; ">// un tableau dynamique d'entiers pour stocker les nombres premiers</span>
+        ArrayList&lt;Integer&gt; premiers = <span style="color: #000099; font-weight: bold">new</span> ArrayList&lt;Integer&gt;();
+
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> n = <span style="color: #660000; ">2</span>; n &lt;= <span style="color: #660000; ">100</span>; ++n) {
+            <span style="color: #666666; ">// résultat du test de primalité</span>
+            <span style="color: #000099; font-weight: bold">boolean</span> premier = <span style="color: #000099; font-weight: bold">true</span>;
+            <span style="color: #000099; font-weight: bold">int</span> diviseur = <span style="color: #660000; ">1</span>;
+
+            <span style="color: #000099; font-weight: bold">if</span> (n % <span style="color: #660000; ">2</span> == <span style="color: #660000; ">0</span>) {
+                <span style="color: #666666; ">// le nombre est pair</span>
+                <span style="color: #000099; font-weight: bold">if</span> (n != <span style="color: #660000; ">2</span>) {
+                    premier  = <span style="color: #000099; font-weight: bold">false</span>;
+                    diviseur = <span style="color: #660000; ">2</span>;
+                }
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                <span style="color: #000099; font-weight: bold">double</span> borneMax = Math.sqrt(n);
+                <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">3</span>; (premier) &amp;&amp; (i &lt;= borneMax); i += <span style="color: #660000; ">2</span>) {
+                    <span style="color: #000099; font-weight: bold">if</span> (n % i == <span style="color: #660000; ">0</span>) {
+                        premier  = <span style="color: #000099; font-weight: bold">false</span>;
+                        diviseur = i;
+                    }
+                }
+            } 
+            <span style="color: #000099; font-weight: bold">if</span> (premier) {
+                premiers.add(n);
+            }
+        }
+
+        System.out.println(<span style="color: #006600; ">"Les nombres premiers compris entre 2 et 100 sont les suivants : "</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (Integer i : premiers) {
+            System.out.println(i);
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo17"> Exercice 17&nbsp;: Passage par valeur (Passage d'arguments, Niveau 1)</a></h4>
+Les explications et la correction sont données dans le code ci-dessous&nbsp;:
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">class</span> ConcatIncorrecte {
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        String s = <span style="color: #006600; ">"China Blue"</span>;
+        System.out.println(s);
+        <span style="color: #666666; ">//version incorrecte</span>
+        <span style="color: #666666; ">//concatener(s, " Express");</span>
+
+        <span style="color: #666666; ">// version correcte:</span>
+        s = concatener(s, <span style="color: #006600; ">" Express"</span>);
+        System.out.println(s);
+    }
+
+    <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">     * les raisons du comportement incorrect sont que:</span>
+<span style="color: #666666; ">     * 1. les opérations sur les chaines sont non destructives</span>
+<span style="color: #666666; ">     *(créent une autre chaine au lieu d'agir sur la chaine originale)</span>
+<span style="color: #666666; ">     * 2. l'objet s est une référence, mais les référence sont passées</span>
+<span style="color: #666666; ">     * par valeur (on peut altérer l'objet référencé, mais pas la référence</span>
+<span style="color: #666666; ">     * elle même):</span>
+<span style="color: #666666; ">     * + crée une nouvelle chaine</span>
+<span style="color: #666666; ">     * la référence de cette nouvelle chaine est affectée  s</span>
+<span style="color: #666666; ">     * (on essaie de changer la référence s et l'effet de cette modification n'est que local)</span>
+<span style="color: #666666; ">     * (revoir l'exemple du cours "méthode auxilliaires et réutilisabilité" avec</span>
+<span style="color: #666666; ">     * les tableaux)</span>
+<span style="color: #666666; ">     */</span>
+
+    <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">     * version incorrecte</span>
+<span style="color: #666666; ">    public static void concatener(String s,String s2 )</span>
+<span style="color: #666666; ">        {</span>
+<span style="color: #666666; ">            s += s2;</span>
+<span style="color: #666666; ">        }</span>
+<span style="color: #666666; ">    */</span>
+    
+    <span style="color: #666666; ">// version corrigée</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> String concatener(String s,String s2 ) {
+        s += s2;
+        <span style="color: #000099; font-weight: bold">return</span> s;
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo16"> Exercice 16: Palindrôme (String, Niveau 2)</a></h4>
+<p>
+    Nous utilisons ici le fait que si une chaine <tt>s</tt> est un palindrôme, la relation suivante est vérifiée pour tout <tt>i</tt>: <tt>s[i] = s[longeur de s - i]</tt>. L'algorithme procède alors comme suit: on parcourt la chaine dans les deux sens en
+    même temps: l'indice <tt class="code">p1</tt> sert à parcourir la chaine du début à la fin et l'indice <tt class="code">p2</tt> sert à parcourir la chaine de la fin au début. On compare à chaque étape la chaine à l'indice <tt class="code">p1</tt> et l'indice
+    <tt class="code">p2</tt>.
+    <br>Si c'est le même caractère on progresse, sinon le mot n'est pas un palindrôme. On prend soin, en cours de parcours, de sauter les séparateurs. On s'arrête autrement quand <tt class="code">p1</tt> et
+    <tt class="code">p2</tt> se rejoignent. Le mot est alors un palindrôme.
+</p>
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Palindrome {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main (String[] args) {
+        System.out.print(<span style="color: #006600; ">"Entrez un original ou une phrase : "</span>);
+        String original = scanner.nextLine();
+
+        <span style="color: #666666; ">// On ne garde que les caractères alphabétiques</span>
+        String temp = <span style="color: #006600; ">""</span>;
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; original.length(); i++) {
+            <span style="color: #000099; font-weight: bold">char</span> c = original.charAt(i);
+            <span style="color: #000099; font-weight: bold">if</span> (Character.isLetter(c)) {
+                temp += c;
+            }
+        }
+
+        <span style="color: #666666; ">// On convertit en minuscules pour éviter</span>
+        <span style="color: #666666; ">// les problèmes de casse:</span>
+        String test = temp.toLowerCase();
+
+        <span style="color: #666666; ">// On teste si mot2 est un palindrome</span>
+        <span style="color: #000099; font-weight: bold">int</span> leftPos = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">int</span> rightPos = test.length() - <span style="color: #660000; ">1</span>;
+        <span style="color: #000099; font-weight: bold">boolean</span> palindrome=<span style="color: #000099; font-weight: bold">true</span>;
+
+        <span style="color: #000099; font-weight: bold">while</span> ((leftPos &lt; rightPos) &amp;&amp; palindrome) {
+            palindrome = test.charAt(leftPos) == test.charAt(rightPos);
+            leftPos++;
+            rightPos--;
+        }
+
+        <span style="color: #000099; font-weight: bold">if</span> (palindrome) {
+            System.out.println(<span style="color: #006600; ">"C'est un palindrôme !"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            System.out.println(<span style="color: #006600; ">"Non, ce n'est pas un palindrôme."</span>);
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo18"> Exercice 18&nbsp;: Multiplication matricielle revisitée (Modularisation, Niveau 2)</a></h4>
+Pour faire cet exercice, il fallait créer les méthodes permettant de lire une matrice, mutliplier deux matrices et afficher une matrice. Le corps de ces méthodes contient les instructions nécessaires au traitement, copiées depuis la version non modularisée
+<tt class="code">MulMat.java</tt>.
+
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> MulMatMod {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Point d'entrée du programme.</span>
+<span style="color: #666666; ">     * Demande à l'utilisateur</span>
+<span style="color: #666666; ">     * d'entrer deux matrices, les multiplie, et affiche</span>
+<span style="color: #666666; ">     * le résultat.</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #000099; font-weight: bold">double</span>[][] matrice1 = lireMatrice();
+        <span style="color: #000099; font-weight: bold">double</span>[][] matrice2 = lireMatrice();
+        <span style="color: #000099; font-weight: bold">if</span> (matrice1[<span style="color: #660000; ">0</span>].length != matrice2.length) {
+            System.out.println(<span style="color: #006600; ">"Multiplication de matrices impossible !"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            <span style="color: #000099; font-weight: bold">double</span>[][] produit = multiplierMatrice(matrice1, matrice2);
+            System.out.println(<span style="color: #006600; ">"Résultat :"</span>);
+            afficherMatrice(produit);
+        }
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Demande à l'utilisateur d'entrer un entier strictement positif.</span>
+<span style="color: #666666; ">     * @param message Le message affiché à l'utilisateur.</span>
+<span style="color: #666666; ">     * @return Un entier strictement positif.</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> lireEntier(String message) {
+        <span style="color: #000099; font-weight: bold">int</span> n = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(message);
+            n = scanner.nextInt();
+        } <span style="color: #000099; font-weight: bold">while</span> (n &lt; <span style="color: #660000; ">1</span>);
+        <span style="color: #000099; font-weight: bold">return</span> n;
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Demande à l'utilisateur de remplir une matrice.</span>
+<span style="color: #666666; ">     * @return Un tableau de double contenant la matrice.</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">double</span>[][] lireMatrice() {
+        System.out.println(<span style="color: #006600; ">"Saisie d'une matrice :"</span>);
+
+        <span style="color: #000099; font-weight: bold">int</span> lignes = lireEntier(<span style="color: #006600; ">"  Nombre de lignes : "</span>);
+        <span style="color: #000099; font-weight: bold">int</span> colonnes = lireEntier(<span style="color: #006600; ">"  Nombre de colonnes : "</span>);
+
+        <span style="color: #000099; font-weight: bold">double</span>[][] matrice = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span>[lignes][colonnes];
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; lignes; row++)
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; colonnes; col++) {
+                System.out.print(<span style="color: #006600; ">"  mat["</span> + (row + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">","</span> + (col + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">"]="</span>);
+                matrice[row][col] = scanner.nextDouble();
+            }
+        <span style="color: #000099; font-weight: bold">return</span> matrice;
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Multiplie deux matrices.</span>
+<span style="color: #666666; ">     * @param mat1 Le premier opérande</span>
+<span style="color: #666666; ">     * @param mat2 Le deuxième opérande</span>
+<span style="color: #666666; ">     * @return Un tableau de double contenant le produit</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">double</span>[][] multiplierMatrice(<span style="color: #000099; font-weight: bold">double</span>[][] mat1, <span style="color: #000099; font-weight: bold">double</span>[][] mat2) {
+        <span style="color: #000099; font-weight: bold">double</span>[][] prod = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">double</span>[mat1.length][mat2[<span style="color: #660000; ">0</span>].length];
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; mat1.length; row++) {
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; mat2[<span style="color: #660000; ">0</span>].length; col++) {
+                prod[row][col] = <span style="color: #660000; ">0.0</span>;
+                <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; mat2.length; i++) {
+                    prod[row][col] += mat1[row][i] * mat2[i][col];
+                }
+            }
+        }
+        <span style="color: #000099; font-weight: bold">return</span> prod;
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Affiche une matrice à l'écran</span>
+<span style="color: #666666; ">     * @param matrice La matrice à afficher</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> afficherMatrice(<span style="color: #000099; font-weight: bold">double</span>[][] matrice) {
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> row = <span style="color: #660000; ">0</span>; row &lt; matrice.length; row++) {
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> col = <span style="color: #660000; ">0</span>; col &lt; matrice[<span style="color: #660000; ">0</span>].length; col++) {
+                System.out.print(matrice[row][col] + <span style="color: #006600; ">" "</span>);
+            }
+            <span style="color: #666666; ">// Retour à la ligne</span>
+            System.out.println();
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo19"> Exercice 19: Nombres amicaux (Modularisation, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">class</span> Amical {
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        <span style="color: #000099; font-weight: bold">int</span>[] nombres = {<span style="color: #660000; ">1210</span>, <span style="color: #660000; ">45</span>, <span style="color: #660000; ">27</span>, <span style="color: #660000; ">220</span>, <span style="color: #660000; ">54</span>, <span style="color: #660000; ">284</span>, <span style="color: #660000; ">9890</span>, <span style="color: #660000; ">120</span>, <span style="color: #660000; ">1184</span>};
+        System.out.println(<span style="color: #006600; ">"Les paires de nombres amicaux sont : "</span>);
+        afficherAmicaux(nombres);
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * V�rifie si les deux nombres donn�s (nb1 et nb2) sont amicaux.</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">boolean</span> amical(<span style="color: #000099; font-weight: bold">int</span> nb1, <span style="color: #000099; font-weight: bold">int</span> nb2) {
+        <span style="color: #000099; font-weight: bold">int</span> somme = sommeDiviseur(nb1);
+        <span style="color: #000099; font-weight: bold">return</span> (nb1 + nb2 == somme &amp;&amp;
+                    sommeDiviseur(nb2) == somme);
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Calcule la somme des diviseurs du nombre pass� en param�tre (nb1).</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> sommeDiviseur(<span style="color: #000099; font-weight: bold">int</span> nb1) {
+        <span style="color: #000099; font-weight: bold">int</span> somme = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">1</span>; i &lt;= nb1; ++i){
+            <span style="color: #000099; font-weight: bold">if</span> ((nb1 % i) == <span style="color: #660000; ">0</span>){
+                somme += i;
+            }
+        }
+        <span style="color: #000099; font-weight: bold">return</span> somme;
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Affiche tous les nombres amicaux contenus dans un tableau d'entires.</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> afficherAmicaux(<span style="color: #000099; font-weight: bold">int</span>[] nombres){
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; nombres.length; ++i){
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j = i; j &lt; nombres.length; ++j)
+                <span style="color: #000099; font-weight: bold">if</span> (amical(nombres[i],nombres[j])){
+                    System.out.println(nombres[i] + <span style="color: #006600; ">" "</span> + nombres[j]);
+                }
+        }
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo20"> Exercice 20: Césure (String, Modularisation, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Cesure {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        String[] phrase = lirePhrase();
+        System.out.println(<span style="color: #006600; ">"Le résultat est : "</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; phrase.length; i++) {
+            cesure(phrase[i]);
+        }
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Lit une phrase depuis le terminal.</span>
+<span style="color: #666666; ">     * @return un tableau de Strings où chaque entrée</span>
+<span style="color: #666666; ">     * est un mot de la phrase lue.</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> String[] lirePhrase() {
+        <span style="color: #000099; font-weight: bold">int</span> number = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">while</span> (number &lt;= <span style="color: #660000; ">0</span>) {
+            System.out.print(<span style="color: #006600; ">"Donnez le nombre de mots de votre phrase : "</span>);
+            number = scanner.nextInt();
+            <span style="color: #000099; font-weight: bold">if</span> (number &lt;= <span style="color: #660000; ">0</span>) {
+                System.out.println(<span style="color: #006600; ">"Entrez une valeur plus grande que 0"</span>);
+            }
+        }
+
+        String[] phrase = <span style="color: #000099; font-weight: bold">new</span> String [number];
+
+        <span style="color: #666666; ">// se debarasser du \n </span>
+        scanner.nextLine();
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; number; i++) {
+            System.out.print(<span style="color: #006600; ">"Donnez le mot "</span> + (i + <span style="color: #660000; ">1</span>) + <span style="color: #006600; ">" : "</span>);
+            phrase[i] = scanner.nextLine();
+        }
+        <span style="color: #000099; font-weight: bold">return</span> phrase;
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Réalise la césure pour un mot donné.</span>
+<span style="color: #666666; ">     * Pour ce faire, examine les différentes façons de couper</span>
+<span style="color: #666666; ">     * le mot: entre l'indice debut et l'indice i et entre i et </span>
+<span style="color: #666666; ">     * la longueur du mot (i variant de 1 à la longueur du mot et </span>
+<span style="color: #666666; ">     * debut étant initialisé à 0).</span>
+<span style="color: #666666; ">     * Si la régle de césure s'applique à ces deux parties</span>
+<span style="color: #666666; ">     * afficher le "-" et passer à la ligne suivante.</span>
+<span style="color: #666666; ">     * Puis, faire le même traitement en considérant la portion de mot</span>
+<span style="color: #666666; ">     * entre i et longueur du mot (debut prend la valeur de i)</span>
+<span style="color: #666666; ">     * @param mot une String représentant un mot de la phrase</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> cesure(String mot) {
+        <span style="color: #000099; font-weight: bold">int</span> debut = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">1</span>; i &lt; mot.length(); i++) {
+            <span style="color: #000099; font-weight: bold">char</span> c1 = mot.charAt(i - <span style="color: #660000; ">1</span>);
+            <span style="color: #000099; font-weight: bold">char</span> c2 = mot.charAt(i);
+            <span style="color: #000099; font-weight: bold">if</span> ((voyelle(c1) &amp;&amp; !voyelle(c2))) {
+                String s1 = mot.substring(debut, i);
+                String s2 = mot.substring(i, mot.length());
+                <span style="color: #000099; font-weight: bold">if</span> ((s1.length() &gt; <span style="color: #660000; ">1</span>) &amp;&amp; (s2.length() &gt; <span style="color: #660000; ">1</span>)) {
+                    <span style="color: #000099; font-weight: bold">if</span> (!(queVoyelles(s1) || queVoyelles(s2))) {
+                        System.out.println(s1 + <span style="color: #006600; ">"-"</span>);
+                        debut = i;
+                    }
+                }
+            }
+        }
+
+        String s1 = mot.substring(debut, mot.length());
+        System.out.println(s1);
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Teste si un caractère est une voyelle.</span>
+<span style="color: #666666; ">     * @param c le caractère à tester</span>
+<span style="color: #666666; ">     * @return true si c est une voyelle et false sinon</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">boolean</span> voyelle(<span style="color: #000099; font-weight: bold">char</span> c) {
+        <span style="color: #000099; font-weight: bold">return</span> ((c == <span style="color: #006600; ">'a'</span>) ||
+                    (c == <span style="color: #006600; ">'e'</span>) ||
+                    (c == <span style="color: #006600; ">'i'</span>) ||
+                    (c == <span style="color: #006600; ">'o'</span>) ||
+                    (c == <span style="color: #006600; ">'u'</span>) ||
+                    (c == <span style="color: #006600; ">'y'</span>));
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Teste si une chaîne de caractères ne contient que des voyelles.</span>
+<span style="color: #666666; ">     * @param s la chaîne à tester</span>
+<span style="color: #666666; ">     * @return true si s ne contient que des voyelles et false sinon</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">boolean</span> queVoyelles(String s) {
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; s.length(); i++) {
+            <span style="color: #000099; font-weight: bold">if</span> (!voyelle(s.charAt(i))) {
+                <span style="color: #000099; font-weight: bold">return</span> <span style="color: #000099; font-weight: bold">false</span>;
+            }
+        }
+        <span style="color: #000099; font-weight: bold">return</span> <span style="color: #000099; font-weight: bold">true</span>;
+    }
+}</pre>
+
+<hr>
+<h4><a name="exo21"> Exercice 21: Nombre de Fibonacci (récursivité, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Fibonacci
+{
+   <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner clavier = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+   
+   <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+         <span style="color: #000099; font-weight: bold">char</span> rep;
+         <span style="color: #000099; font-weight: bold">do</span> {
+            <span style="color: #000099; font-weight: bold">int</span> n = demanderNombre(<span style="color: #660000; ">0</span>, <span style="color: #660000; ">40</span>);
+            System.out.println(<span style="color: #006600; ">"Méthode itérative :"</span>);
+            System.out.println(<span style="color: #006600; ">"    F("</span> + n + <span style="color: #006600; ">") = "</span> + FibonacciIteratif(n));
+            System.out.println(<span style="color: #006600; ">"Méthode récursive :"</span>);
+            System.out.println(<span style="color: #006600; ">"    F("</span> + n + <span style="color: #006600; ">") = "</span> + Fibonacci(n));
+
+            
+            <span style="color: #000099; font-weight: bold">do</span> {
+               System.out.print(<span style="color: #006600; ">"Voulez-vous recommencer [o/n] ? "</span>);
+               rep = clavier.next().charAt(<span style="color: #660000; ">0</span>);
+            } <span style="color: #000099; font-weight: bold">while</span> ((rep != <span style="color: #006600; ">'o'</span>) &amp;&amp; (rep != <span style="color: #006600; ">'n'</span>));
+
+         } <span style="color: #000099; font-weight: bold">while</span> (rep == <span style="color: #006600; ">'o'</span>);
+      }
+   
+
+
+<span style="color: #666666; ">/* ----------------------------------------------------------------------</span>
+<span style="color: #666666; "> * Calcule de façon itérative le n-ieme nombre de Fibonacci.</span>
+<span style="color: #666666; "> * Entrée : le nombre n </span>
+<span style="color: #666666; "> * Sortie : F(n)</span>
+<span style="color: #666666; "> * ---------------------------------------------------------------------- */</span>
+   <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> FibonacciIteratif(<span style="color: #000099; font-weight: bold">int</span> n)
+      {
+         <span style="color: #000099; font-weight: bold">int</span> Fn = <span style="color: #660000; ">0</span>;    <span style="color: #666666; ">// stocke F(i)  , initialisé par F(0)</span>
+         <span style="color: #000099; font-weight: bold">int</span> Fn_1 = Fn; <span style="color: #666666; ">// stocke F(i-1), initialisé par F(0)</span>
+         <span style="color: #000099; font-weight: bold">int</span> Fn_2 = <span style="color: #660000; ">1</span>;  <span style="color: #666666; ">// stocke F(i-2), initialisé par F(-1)</span>
+         
+         <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">1</span>; i &lt;= n; ++i) {
+            Fn   = Fn_1 + Fn_2;    <span style="color: #666666; ">// pour n&gt;=1 on calcule F(n)=F(n-1)+F(n-2)</span>
+            Fn_2 = Fn_1;           <span style="color: #666666; ">// et on decale...</span>
+            Fn_1 = Fn;
+         }
+         <span style="color: #000099; font-weight: bold">return</span> Fn;
+      }
+ 
+<span style="color: #666666; ">/* ----------------------------------------------------------------------</span>
+<span style="color: #666666; "> * Calcule de façon récursive le n-ieme nombre de Fibonacci.</span>
+<span style="color: #666666; "> * Entrée : le nombre n </span>
+<span style="color: #666666; "> * Sortie : F(n)</span>
+<span style="color: #666666; "> * ---------------------------------------------------------------------- */</span>
+   <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> Fibonacci(<span style="color: #000099; font-weight: bold">int</span> n)
+      {
+         <span style="color: #000099; font-weight: bold">if</span> (n == <span style="color: #660000; ">0</span>)
+            <span style="color: #000099; font-weight: bold">return</span> <span style="color: #660000; ">0</span>;
+         <span style="color: #000099; font-weight: bold">else</span> <span style="color: #000099; font-weight: bold">if</span> (n == <span style="color: #660000; ">1</span>)
+            <span style="color: #000099; font-weight: bold">return</span> <span style="color: #660000; ">1</span>;
+         <span style="color: #000099; font-weight: bold">else</span>
+            <span style="color: #000099; font-weight: bold">return</span> Fibonacci(n-1) + Fibonacci(n-2);
+      }
+ 
+<span style="color: #666666; ">/* --------------------------------------------------------------</span>
+<span style="color: #666666; "> * fonction demandant à l'utilisateur un nombre compris</span>
+<span style="color: #666666; "> * dans un intervalle [a, b], ou supérieur ou égal à a</span>
+<span style="color: #666666; "> * si b &lt; a.</span>
+<span style="color: #666666; "> * Entrée : les deux nombres a et b définissant l'intervalle</span>
+<span style="color: #666666; "> * Sortie : le nombre saisi par l'utilisateur</span>
+<span style="color: #666666; "> * -------------------------------------------------------------- */</span>
+   <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> demanderNombre(<span style="color: #000099; font-weight: bold">int</span> a, <span style="color: #000099; font-weight: bold">int</span> b)
+      {
+          <span style="color: #000099; font-weight: bold">int</span> res;
+         <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Entrez un nombre entier "</span>);
+            <span style="color: #000099; font-weight: bold">if</span> (a &gt;= b){
+               System.out.print(<span style="color: #006600; ">"supérieur ou égal à "</span> + a);
+            }
+            <span style="color: #000099; font-weight: bold">else</span> {
+               System.out.print(<span style="color: #006600; ">"compris entre "</span> + a + <span style="color: #006600; ">" et "</span> + b);
+            }
+      
+            System.out.print(<span style="color: #006600; ">" : "</span>);
+            <span style="color: #666666; ">/* La lecture de la valeur au clavier est ici délibérément simplifiée</span>
+<span style="color: #666666; ">               on ne traite pas les situations où l'utilisateur se trompe </span>
+<span style="color: #666666; ">               au moment de la saisie*/</span>
+            res =  clavier.nextInt(); 
+         } <span style="color: #000099; font-weight: bold">while</span> ((res &lt; a) || ((a &lt; b) &amp;&amp; (res &gt; b)));
+ 
+         <span style="color: #000099; font-weight: bold">return</span> res;
+      }
+}
+
+ </pre>
+
+
+<hr>
+<h4><a name="exo22"> Exercice 22: Tri de Shell (Révisions, Niveau 2)</a></h4>
+<p>La principale difficulté de cet exercice réside dans la manipulation des indices.</p>
+<p>Le but premier de cet exercice est en effet de vous faire réfléchir au passage de la notation mathématique (qui utilise des indices de 1 à N) à la notation C++ (qui utilise des indices de 0 à N-1).</p>
+<p>
+    Très souvent, il suffit de changer la boucle 1-&gt;N en une boucle 0-&gt;N-1 et le tour est joué. Mais en fait la vraie bonne traduction est plus subtile que cela.
+</p>
+
+<p>Quand en mathématique on note <code>u<sub>i</sub></code>, i.e. le
+    <code>i</code>-ème élément de <code>u</code> (<code>i</code> ≥ 1), cela correspond en C++ à un <code>u[i-1]</code>. Donc, en fait, c'est
+    <em>l'accesseur</em> aux éléments du tableau qui translate les indices de 1, <strong>et lui seul</strong>&nbsp;!</p>
+<p>La seule et unique bonne façon de passer de la notation mathématique à la notation C++ à tous les coups sans se tromper consiste donc à translater (de 1) tous les accesseurs. Ni plus, ni moins.
+</p>
+<p>Ensuite, et seulement ensuite, si une écriture plus simple existe, alors on peut réécrire le tout (avec un changement d'indice). C'est exactement ce qui se passe pour le cas des boucles les plus simples que l'on peut donc écrire de 0 à N-1. Mais ceci
+    n'est qu'un cas particulier, très simple, qui ne fonctionne pas à tous les coups... ...en particulier pas pour le tri Shell qui a des boucles plus compliquées (voir le corrigé).
+
+</p>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">class</span> Shell
+{
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args)
+    {
+      <span style="color: #000099; font-weight: bold">int</span>[] tab = { <span style="color: #660000; ">3</span>, <span style="color: #660000; ">5</span>, <span style="color: #660000; ">12</span>, -1, <span style="color: #660000; ">215</span>, -2, <span style="color: #660000; ">17</span>, <span style="color: #660000; ">8</span>, <span style="color: #660000; ">3</span>, 
+                      <span style="color: #660000; ">5</span>, <span style="color: #660000; ">13</span>, <span style="color: #660000; ">18</span>, <span style="color: #660000; ">23</span>, <span style="color: #660000; ">5</span>, <span style="color: #660000; ">4</span>, <span style="color: #660000; ">3</span>, <span style="color: #660000; ">2</span>, <span style="color: #660000; ">1</span>    };
+      System.out.println(<span style="color: #006600; ">"A trier  : "</span>);
+      affiche(tab);
+      triShell(tab);
+      System.out.println(<span style="color: #006600; ">"Résultat :"</span>);
+      affiche(tab);
+    }
+  
+  <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> affiche(<span style="color: #000099; font-weight: bold">int</span>[] tab)
+    {
+        <span style="color: #000099; font-weight: bold">for</span>(<span style="color: #000099; font-weight: bold">int</span> el : tab) {
+          System.out.print(el +  <span style="color: #006600; ">" "</span>);
+        }
+        
+      System.out.println();
+    }
+  
+
+  <span style="color: #666666; ">// inverse le contenu des cases d'indices index1 et index2</span>
+  <span style="color: #666666; ">// du tableau tab</span>
+  <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> swap(<span style="color: #000099; font-weight: bold">int</span>[] tab, <span style="color: #000099; font-weight: bold">int</span> index1, <span style="color: #000099; font-weight: bold">int</span> index2)
+    {
+      <span style="color: #000099; font-weight: bold">int</span> temp = tab[index1];
+      tab[index1] = tab[index2];
+      tab[index2] = temp;
+    }
+  
+  
+  <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> triShell(<span style="color: #000099; font-weight: bold">int</span>[] tab)
+    {
+      <span style="color: #000099; font-weight: bold">for</span>(<span style="color: #000099; font-weight: bold">int</span> k = (tab.length)/<span style="color: #660000; ">2</span>; k &gt;= <span style="color: #660000; ">1</span>; k /= <span style="color: #660000; ">2</span>)
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = k+1; i &lt;= tab.length; ++i) {
+          <span style="color: #000099; font-weight: bold">int</span> j = i-k;
+          <span style="color: #000099; font-weight: bold">while</span> (j &gt; <span style="color: #660000; ">0</span>) {
+            <span style="color: #000099; font-weight: bold">if</span> (tab[j-1] &gt; tab[j+k-1]) {
+                swap(tab, j-1, j+k-1);
+              j -= k;
+            } <span style="color: #000099; font-weight: bold">else</span> {
+              j = <span style="color: #660000; ">0</span>;
+            }
+          }
+        }
+    }
+}</pre>
+
+
+<hr>
+<h4><a name="exo23"> Exercice 23: Sapin et guirlandes (Révisions, Niveau 2)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #666666; ">/*</span>
+<span style="color: #666666; "> * Voici un codage possible de cet exercice</span>
+<span style="color: #666666; "> * La code fourni permet de mettre en oeuvre les deux parties de l'exercice.</span>
+<span style="color: #666666; "> * La première partie pourrait être réalisée sans passer par un tableau.</span>
+<span style="color: #666666; "> * L'usage du tableau est surtout destiné à faciliter la programmation</span>
+<span style="color: #666666; "> * de la seconde partie.</span>
+<span style="color: #666666; "> */</span>
+
+
+<span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+
+<span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">class</span> Sapin {
+
+    
+    <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">     * méthode remplissant le triangle, on construit à chaque ligne</span>
+<span style="color: #666666; ">     * le tableau de char de la dimension </span>
+<span style="color: #666666; ">     *  correspondante (1 a la ligne 0, 3 à la ligne 1, etc)</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> remplirTriangle(<span style="color: #000099; font-weight: bold">char</span>[][] triangle, <span style="color: #000099; font-weight: bold">char</span> c) {
+        <span style="color: #000099; font-weight: bold">int</span> nbLigne = triangle.length;
+        <span style="color: #000099; font-weight: bold">int</span> nbColonne;
+        
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; nbLigne; ++i) {
+            nbColonne = i*<span style="color: #660000; ">2</span> + <span style="color: #660000; ">1</span>;
+            triangle[i] = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">char</span>[nbColonne];
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>; j &lt; nbColonne; ++j) {
+                triangle[i][j] = c;
+            }
+        }
+    }
+    
+    
+    <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">     * Méthode ajoutant des guirlandes au triangle qui représente un sapin</span>
+<span style="color: #666666; ">     * sans decorations.</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> mettreGuirlande(<span style="color: #000099; font-weight: bold">char</span>[][] sapinTriangle, String guirlande) {
+        <span style="color: #000099; font-weight: bold">int</span> nbLigne = sapinTriangle.length;
+        
+        <span style="color: #666666; ">// La variable pointeurChar stocke l'indice du prochain caractère de</span>
+        <span style="color: #666666; ">// la guirlande à placer</span>
+        <span style="color: #000099; font-weight: bold">int</span> pointeurChar = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">int</span> longueurChaine = guirlande.length();
+        
+        <span style="color: #666666; ">// Cette variable permet de différencier le cas où l'on pose les guirlandes</span>
+        <span style="color: #666666; ">// complètement, et le cas où l'on étend une guirlande sur les lignes</span>
+        <span style="color: #666666; ">// supplémentaires</span>
+        <span style="color: #000099; font-weight: bold">boolean</span> completerGuirlande = <span style="color: #000099; font-weight: bold">false</span>;
+        
+        <span style="color: #666666; ">//les deux variables d'indice que l'on fera varier</span>
+        <span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>;
+        
+
+        <span style="color: #000099; font-weight: bold">while</span>(i &lt; nbLigne) {
+            <span style="color: #666666; ">// on vérifie d'abord que nous sommes dans une ligne impaire</span>
+            <span style="color: #666666; ">// ou alors que l'on est en train de finir d'étendre une</span>
+            <span style="color: #666666; ">// guirlande sur les lignes suivantes</span>
+            <span style="color: #000099; font-weight: bold">if</span> (i % <span style="color: #660000; ">2</span> == <span style="color: #660000; ">1</span> || completerGuirlande) {
+                
+                <span style="color: #666666; ">// avec ces 2 instructions on remplace le caractère (i,j)</span>
+                <span style="color: #666666; ">// du sapin par le prochain caractère à placer</span>
+                <span style="color: #666666; ">// de la guirlande. pointeurChar donne la position</span>
+                <span style="color: #666666; ">// de ce caractère dans la guirlande. On incrémente ensuite</span>
+                <span style="color: #666666; ">// cette position en prenant le reste de la division</span>
+                <span style="color: #666666; ">// par rapport à la longueur de la guirlande</span>
+                <span style="color: #666666; ">//(quand on dépasse la position maximale possible, pointeurChar</span>
+                <span style="color: #666666; ">// reprend la valeur 0)</span>
+                sapinTriangle[i][j] = guirlande.charAt(pointeurChar);
+                pointeurChar = (pointeurChar + <span style="color: #660000; ">1</span>) % longueurChaine;
+                        
+                <span style="color: #666666; ">//ensuite il faut incrémenter les i et j en fonction de la</span>
+                <span style="color: #666666; ">//situation</span>
+                
+                <span style="color: #000099; font-weight: bold">if</span> ((j &gt;= sapinTriangle[i].length - <span style="color: #660000; ">1</span> &amp;&amp; pointeurChar != <span style="color: #660000; ">0</span>) || completerGuirlande) {
+                    <span style="color: #666666; ">// Ce if gère le cas assez compliqué où il faut finir d'étendre la</span>
+                    <span style="color: #666666; ">// guirlande sur la ligne d'en dessous. On utilise un boolean pour entrer </span>
+                    <span style="color: #666666; ">// dans ce if jusqu'à ce que pointeurChar vaille 0; à ce moment on sait</span>
+                    <span style="color: #666666; ">// que l'on a finit d'étendre la guirlande et on remet le boolean à faux. On</span>
+                    <span style="color: #666666; ">// incrémente alors le j d'une quantité aléatoire. On n'incrémente pas la ligne car il </span>
+                    <span style="color: #666666; ">// est tout à fait possible d'avoir couvert la deuxième ligne entièrement et </span>
+                    <span style="color: #666666; ">// d'être revenu à une ligne impaire, dans ce cas on doit simplement continuer</span>
+                    <span style="color: #666666; ">// avec la guirlande suivante</span>
+                     
+                    <span style="color: #000099; font-weight: bold">if</span> (pointeurChar == <span style="color: #660000; ">0</span>) {
+                        completerGuirlande = <span style="color: #000099; font-weight: bold">false</span>;
+                        j += random() + <span style="color: #660000; ">1</span>;
+                    } <span style="color: #000099; font-weight: bold">else</span> {
+                        <span style="color: #666666; ">// sinon on gère les 3 cas possibles:</span>
+                        <span style="color: #666666; ">// 1.  on arrive pour la première fois ici et on change de ligne et on affecte j</span>
+                        <span style="color: #666666; ">// au dernier index de la ligne d'en dessous</span>
+                        <span style="color: #666666; ">//  sinon, on est en train de compléter la guirlande (variable à vrai), dans ce cas : </span>
+                        <span style="color: #666666; ">// 2. soit la ligne est paire, auquel cas on remplit de droite à  gauche</span>
+                        <span style="color: #666666; ">// 3. elle est impaire et on remplit de gauche à  droite (cas de longues guirlandes où l'on</span>
+                        <span style="color: #666666; ">// a recouvert toute la ligne supplémentaire et qu'on continue d'étendre sur la</span>
+                        <span style="color: #666666; ">// suivante</span>
+
+                        <span style="color: #000099; font-weight: bold">if</span> (!completerGuirlande) {
+                            completerGuirlande = <span style="color: #000099; font-weight: bold">true</span>;
+                            ++i;
+                            <span style="color: #000099; font-weight: bold">if</span> (i &lt; nbLigne) {
+                                j = sapinTriangle[i].length - <span style="color: #660000; ">1</span>;
+                            }
+                        } <span style="color: #000099; font-weight: bold">else</span> <span style="color: #000099; font-weight: bold">if</span> (i % <span style="color: #660000; ">2</span> == <span style="color: #660000; ">0</span>) {
+                            --j;
+                            <span style="color: #000099; font-weight: bold">if</span> (j &lt; <span style="color: #660000; ">0</span>) {
+                                ++i;
+                                j = <span style="color: #660000; ">0</span>;
+                            }
+                        } <span style="color: #000099; font-weight: bold">else</span> {
+                            ++j;
+                            <span style="color: #000099; font-weight: bold">if</span> (j &gt;= sapinTriangle[i].length) {
+                                ++i;
+                                <span style="color: #000099; font-weight: bold">if</span> (i &lt; nbLigne) {
+                                    j = sapinTriangle[i].length - <span style="color: #660000; ">1</span>;
+                                }
+                            }
+                        }
+                    }
+                } <span style="color: #000099; font-weight: bold">else</span> {
+                    <span style="color: #666666; ">// else de la condition</span>
+                    <span style="color: #666666; ">// (j &gt;= sapinTriangle[i].length - 1 &amp;&amp; pointeurChar != 0) || completerGuirlande)</span>
+                    <span style="color: #666666; ">//Dans ce cas on fait l'incrémentation normale de j, et éventuellement on ajoute</span>
+                    <span style="color: #666666; ">//le nombre aléatoire pour laisser un peu d'espace</span>
+                    <span style="color: #000099; font-weight: bold">if</span> (pointeurChar == <span style="color: #660000; ">0</span>) {
+                        j += random();
+                    }
+                    ++j;
+                }
+                <span style="color: #666666; ">//finalement on fait la vérification finale, qui incrémente la ligne et remet j à zéro si nécessaire</span>
+                <span style="color: #000099; font-weight: bold">if</span> (i &lt; nbLigne &amp;&amp; j &gt;= sapinTriangle[i].length &amp;&amp; pointeurChar == <span style="color: #660000; ">0</span>) {
+                    ++i;
+                    j = <span style="color: #660000; ">0</span>;
+                }               
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                <span style="color: #666666; ">//si la ligne n'était pas paire, on incrémente la ligne</span>
+                j = <span style="color: #660000; ">0</span>;
+                ++i;
+            }
+        }
+    }
+    
+    <span style="color: #666666; ">/* Méthode affichant le tableau sous forme triangulaire.</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> afficherTriangle(<span style="color: #000099; font-weight: bold">char</span>[][] triangle) {
+        <span style="color: #000099; font-weight: bold">int</span> nbLigne = triangle.length;
+        <span style="color: #000099; font-weight: bold">int</span> nbColonne;
+        <span style="color: #000099; font-weight: bold">int</span> nbEspace;
+        
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; nbLigne; ++i) {
+            
+            nbEspace = ((<span style="color: #660000; ">2</span>*nbLigne - <span style="color: #660000; ">1</span>) - (<span style="color: #660000; ">2</span>*i + <span style="color: #660000; ">1</span>))/<span style="color: #660000; ">2</span>;
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>; j &lt; nbEspace; ++j) {
+                System.out.print(<span style="color: #006600; ">" "</span>);
+            }
+            
+            nbColonne = triangle[i].length;
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>; j &lt; nbColonne; ++j) {
+                System.out.print(triangle[i][j]);
+            }
+            
+            System.out.println();
+        }
+    }
+    
+    <span style="color: #666666; ">/* Méthode ajoutant un tronc à l'arbre, elle choisit la hauteur et</span>
+<span style="color: #666666; ">     * la largeur en fonction du nombre de ligne du sapin.</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> afficherTronc(<span style="color: #000099; font-weight: bold">int</span> nbLigne) {
+        <span style="color: #000099; font-weight: bold">int</span> largeur;
+        <span style="color: #000099; font-weight: bold">int</span> hauteur;
+        
+        largeur = (nbLigne*<span style="color: #660000; ">2</span> - <span style="color: #660000; ">1</span>) / <span style="color: #660000; ">5</span>;
+        <span style="color: #000099; font-weight: bold">if</span> (largeur % <span style="color: #660000; ">2</span> == <span style="color: #660000; ">0</span>) 
+            ++largeur;
+        hauteur = Math.max(<span style="color: #660000; ">1</span>, nbLigne/<span style="color: #660000; ">3</span>);
+        
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; hauteur; ++i) {
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>; j &lt; ((nbLigne*<span style="color: #660000; ">2</span> -1) - <span style="color: #660000; ">3</span>)/<span style="color: #660000; ">2</span>; ++j) 
+                System.out.print(<span style="color: #006600; ">" "</span>);
+            <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>; j &lt; largeur; ++j) 
+                System.out.print(<span style="color: #006600; ">"|"</span>);
+            System.out.println();
+        }
+    }
+    
+    <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">     * Méthode choisissant aléatoirement entre 2 et 3</span>
+<span style="color: #666666; ">     */</span>
+    
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> random() {
+        <span style="color: #000099; font-weight: bold">int</span> val = (<span style="color: #000099; font-weight: bold">int</span>)(Math.random()*<span style="color: #660000; ">2</span>); <span style="color: #666666; ">// 0 or 1</span>
+        <span style="color: #000099; font-weight: bold">return</span> (val+2); <span style="color: #666666; ">//return 2 or 3</span>
+    }
+    
+    <span style="color: #666666; ">/*</span>
+<span style="color: #666666; ">     * Programme principal</span>
+<span style="color: #666666; ">     * on demande  les données nécessaires à l'utilisateur et vérifie que</span>
+<span style="color: #666666; ">     * les informations saisies soient correctes. </span>
+<span style="color: #666666; ">     * On appelle ensuite les méthodes dans le bon ordre pour construire puis</span>
+<span style="color: #666666; ">     * afficher le sapin</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        Scanner sc = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+        <span style="color: #000099; font-weight: bold">char</span>[][] triangle;
+        <span style="color: #000099; font-weight: bold">char</span> symbole;
+        <span style="color: #000099; font-weight: bold">int</span> nbLigne;
+        String guirlande; 
+        
+        
+        System.out.print(<span style="color: #006600; ">"Quel symbole voulez-vous pour les épines du sapin? "</span>);
+        symbole = sc.nextLine().charAt(<span style="color: #660000; ">0</span>);
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Combien de ligne (de 8 a 35)? "</span>);
+            nbLigne = sc.nextInt();
+        } <span style="color: #000099; font-weight: bold">while</span> (nbLigne &lt; <span style="color: #660000; ">8</span> || nbLigne &gt; <span style="color: #660000; ">35</span>);
+        <span style="color: #000099; font-weight: bold">do</span> {
+            System.out.print(<span style="color: #006600; ">"Quelles guirlandes voulez-vous mettre "</span> +
+                             <span style="color: #006600; ">"(taille de 3 a 25 caractères et elles ne peuvent \n"</span> +
+                             <span style="color: #006600; ">"pas contenir le même caractère que celui utilisé pour les épines)? "</span>);
+            guirlande = sc.next();
+        } <span style="color: #000099; font-weight: bold">while</span> (guirlande.length() &lt; <span style="color: #660000; ">3</span> || guirlande.length() &gt; <span style="color: #660000; ">25</span> || guirlande.contains(Character.toString(symbole)));
+        
+        System.out.println();
+        
+        <span style="color: #666666; ">//on initialise seulement le nombre de lignes que contiendra ce tableau (ligne), on pourra ensuite</span>
+        <span style="color: #666666; ">//choisir à chaque ligne le nombre d'éléments (colonne)</span>
+        triangle = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">char</span> [nbLigne][];
+        remplirTriangle(triangle, symbole);
+        mettreGuirlande(triangle, guirlande);
+        afficherTriangle(triangle);
+        afficherTronc(triangle.length);
+        
+        <span style="color: #666666; ">/* Note pour la partie 1: il suffit d'invoquer les méthodes suivantes</span>
+<span style="color: #666666; ">         * (après la saisie des données utiles) :</span>
+<span style="color: #666666; ">         * </span>
+<span style="color: #666666; ">         * remplirTriangle(triangle, symbole);</span>
+<span style="color: #666666; ">         * afficherTriangle(triangle);</span>
+<span style="color: #666666; ">         */</span>
+    }
+    
+}</pre>
+
+<hr>
+<h4><a name="exo24"> Exercice 24: Master-Mind(tm) (Révisions, Niveau 3)</a></h4>
+<pre style="font-family:monospace;"><span style="color: #000099; font-weight: bold">import</span> java.util.Scanner;
+
+<span style="color: #000099; font-weight: bold">class</span> Mastermind {
+
+    <span style="color: #000099; font-weight: bold">private</span> <span style="color: #000099; font-weight: bold">static</span> Scanner scanner = <span style="color: #000099; font-weight: bold">new</span> Scanner(System.in);
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Lancement du Master-Mind(tm).</span>
+<span style="color: #666666; ">     * @param args Inutilisé dans ce programme</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">public</span> <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> main(String[] args) {
+        mastermind(<span style="color: #660000; ">4</span>, <span style="color: #660000; ">6</span>, <span style="color: #660000; ">10</span>);
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Tirage d'un entier au hasard entre 1 et max.</span>
+<span style="color: #666666; ">     * @param max La valeur maximale pouvant être retournée</span>
+<span style="color: #666666; ">     * @return Un entire aléatoire entre 1 et max</span>
+<span style="color: #666666; ">     */</span>
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">int</span> hasard(<span style="color: #000099; font-weight: bold">int</span> max) {
+        <span style="color: #000099; font-weight: bold">return</span> (<span style="color: #660000; ">1</span> + (<span style="color: #000099; font-weight: bold">int</span>) (Math.random() * max));
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Tire une combinaison à deviner. </span>
+<span style="color: #666666; ">     * C'est la référence du tableau qui est passée</span>
+<span style="color: #666666; ">     * en paramètre. La méthode tirerCombinaison pourra directement</span>
+<span style="color: #666666; ">     * modifier la combinaison en mémoire.</span>
+<span style="color: #666666; ">     * Ici, on suppose que n &lt; combinaison.length.</span>
+<span style="color: #666666; ">     * @param combinaison Référence vers le tableau à modifier</span>
+<span style="color: #666666; ">     * @param n Longueur de la combinaison.</span>
+<span style="color: #666666; ">     * @param m Valeur maximale à tirer aléatoirement</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> tirerCombinaison(<span style="color: #000099; font-weight: bold">int</span>[] combinaison, <span style="color: #000099; font-weight: bold">int</span> n, <span style="color: #000099; font-weight: bold">int</span> m) {
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++) {
+            combinaison [i] = hasard(m);
+            }
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Permet de lire la combinaison proposée</span>
+<span style="color: #666666; ">     * par le joueur.</span>
+<span style="color: #666666; ">     * @param combinaison Tableau dans lequel stocker les valeurs entrées par le</span>
+<span style="color: #666666; ">     * joueur</span>
+<span style="color: #666666; ">     * @param n Longueur de la combinaison</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> demanderCoup(<span style="color: #000099; font-weight: bold">int</span>[] combinaison, <span style="color: #000099; font-weight: bold">int</span> n) {
+        System.out.print(<span style="color: #006600; ">"Entrez les "</span>);
+        System.out.print(n);
+        System.out.print(<span style="color: #006600; ">" chiffres de votre proposition "</span>);
+        System.out.println(<span style="color: #006600; ">"(terminés par un retour chariot) :"</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++) {
+            combinaison[i] = scanner.nextInt();
+        }
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Permet de comparer la combinaison à deviner avec la </span>
+<span style="color: #666666; ">     * combinaison proposée par le joueur.</span>
+<span style="color: #666666; ">     * Dans reponse[0] sera stocké le nombre d'éléments bien devinés </span>
+<span style="color: #666666; ">     * et correctement placés.</span>
+<span style="color: #666666; ">     * Dans reponse[1] sera stocké le nombre d'éléments bien devinés</span>
+<span style="color: #666666; ">     * mais mal placés.</span>
+<span style="color: #666666; ">     * @param n Longueur de la combinaison</span>
+<span style="color: #666666; ">     * @param combinaison1 Combinaison proposée par le joueur</span>
+<span style="color: #666666; ">     * @param combinaison2 Combinaison à deviner</span>
+<span style="color: #666666; ">     * @param reponse Tableau de deux int contenant le nombre de bien placés</span>
+<span style="color: #666666; ">     * (index 0) et le nombre de mal placés (index 1)</span>
+<span style="color: #666666; ">     * @return true si la bonne combinaison est trouvée et false sinon</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">boolean</span> compare(<span style="color: #000099; font-weight: bold">int</span> n, <span style="color: #000099; font-weight: bold">int</span>[] combinaison1, <span style="color: #000099; font-weight: bold">int</span>[] combinaison2,
+                <span style="color: #000099; font-weight: bold">int</span>[] reponse) {
+        <span style="color: #666666; ">// nombre de bien placés</span>
+        <span style="color: #000099; font-weight: bold">int</span> nbOk = <span style="color: #660000; ">0</span>;
+        <span style="color: #666666; ">// nombre de mal placés</span>
+        <span style="color: #000099; font-weight: bold">int</span> nbCol = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">boolean</span> [] marque = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">boolean</span>[n];
+        <span style="color: #000099; font-weight: bold">boolean</span> trouve = <span style="color: #000099; font-weight: bold">true</span>;
+        <span style="color: #666666; ">// cette première boucle sert à trouver </span>
+        <span style="color: #666666; ">// les éléments bien devinés et correctement placés.</span>
+        <span style="color: #666666; ">// Le tableau marque permet de marquer de tels</span>
+        <span style="color: #666666; ">// éléments pour qu'ils ne soient pas considérés</span>
+        <span style="color: #666666; ">// plusieurs fois.</span>
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++) {
+            <span style="color: #000099; font-weight: bold">if</span> (combinaison1 [i] == combinaison2 [i]) {
+                nbOk++;
+                marque[i] = <span style="color: #000099; font-weight: bold">true</span>;
+            } <span style="color: #000099; font-weight: bold">else</span> {
+                trouve = <span style="color: #000099; font-weight: bold">false</span>;
+                marque[i] = <span style="color: #000099; font-weight: bold">false</span>;
+            }
+        }
+        <span style="color: #666666; ">// la deuxième boucle suivante sert à identifier les</span>
+        <span style="color: #666666; ">// éléments bien devinés mais mal placés.</span>
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++) {
+            <span style="color: #000099; font-weight: bold">if</span> (combinaison1[i] != combinaison2[i]) {
+                <span style="color: #000099; font-weight: bold">int</span> j = <span style="color: #660000; ">0</span>;
+                <span style="color: #000099; font-weight: bold">boolean</span> trouveMalPlace = <span style="color: #000099; font-weight: bold">false</span>;
+                <span style="color: #000099; font-weight: bold">while</span> ((j &lt; n) &amp;&amp; !trouveMalPlace) {
+                    <span style="color: #000099; font-weight: bold">if</span> (!marque[j] &amp;&amp; (combinaison1[i] == combinaison2[j])) {
+                        nbCol++;
+                        marque[j] = <span style="color: #000099; font-weight: bold">true</span>;
+                        trouveMalPlace = <span style="color: #000099; font-weight: bold">true</span>;
+                    }
+                    j++;
+                }
+            }
+        }
+
+        reponse[<span style="color: #660000; ">0</span>] = nbOk;
+        reponse[<span style="color: #660000; ">1</span>] = nbCol;
+        <span style="color: #000099; font-weight: bold">return</span> trouve;
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Affichage d'une combinaison.</span>
+<span style="color: #666666; ">     * @param combinaison Combinaison à afficher</span>
+<span style="color: #666666; ">     * @param n Longueur de la combinaison</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> afficheCombinaison(<span style="color: #000099; font-weight: bold">int</span>[] combinaison, <span style="color: #000099; font-weight: bold">int</span> n) {
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; n; i++)
+            System.out.print(combinaison[i]);
+        System.out.println(<span style="color: #006600; ">" "</span>);
+    };
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Affichage des indications destinées au joueur.</span>
+<span style="color: #666666; ">     * @param reponse Tableau de deux int contenant le nombre de bien placés</span>
+<span style="color: #666666; ">     * (index 0) et le nombre de mal placés (index 1)</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> afficheReponse(<span style="color: #000099; font-weight: bold">int</span>[] reponse) {
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; reponse[<span style="color: #660000; ">0</span>]; i++)
+            System.out.print(<span style="color: #006600; ">'#'</span>);
+        <span style="color: #000099; font-weight: bold">for</span> (<span style="color: #000099; font-weight: bold">int</span> i = <span style="color: #660000; ">0</span>; i &lt; reponse[<span style="color: #660000; ">1</span>]; i++)
+            System.out.print(<span style="color: #006600; ">'O'</span>);
+        System.out.println();
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Affichage du texte d'acceuil.</span>
+<span style="color: #666666; ">     * @param n Longueur du code</span>
+<span style="color: #666666; ">     * @param m Valeur maximale permise dans la combinaison</span>
+<span style="color: #666666; ">     * @param maxCoups limite de coups autorisée</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> bienvenue(<span style="color: #000099; font-weight: bold">int</span> n, <span style="color: #000099; font-weight: bold">int</span> m, <span style="color: #000099; font-weight: bold">int</span> maxCoups) {
+        System.out.print(<span style="color: #006600; ">"Pouvez vous trouver ma combinaison de "</span>);
+        System.out.print(n);
+        System.out.print(<span style="color: #006600; ">" chiffres [compris entre 1 et "</span>);
+        System.out.print(m);
+        System.out.print(<span style="color: #006600; ">" avec répétitions possibles]\n en moins de "</span>);
+        System.out.print(maxCoups);
+        System.out.println(<span style="color: #006600; ">" coups ?"</span>);
+    }
+
+    <span style="color: #666666; ">/**</span>
+<span style="color: #666666; ">     * Jeu du Master-Mind.</span>
+<span style="color: #666666; ">     * Le programme tire une combinaison au hasard.</span>
+<span style="color: #666666; ">     * Le joueur cherche à la deviner et fait des propositions de </span>
+<span style="color: #666666; ">     * combinaisons.</span>
+<span style="color: #666666; ">     * Le programme indique à chaque coup au joueur combien d'éléments</span>
+<span style="color: #666666; ">     * sont bien devinés et correctement placé ou bien devinés mais</span>
+<span style="color: #666666; ">     * mal placés.</span>
+<span style="color: #666666; ">     * Le jour a droit à &lt;maxCoups&gt; tentatives.</span>
+<span style="color: #666666; ">     * @param size Longueur du code à deviner</span>
+<span style="color: #666666; ">     * @param maxDigit Valeur maximale pouvant se trouver dans le code</span>
+<span style="color: #666666; ">     * @param maxCoups Limite de coups pour trouver la réponse</span>
+<span style="color: #666666; ">     */</span> 
+    <span style="color: #000099; font-weight: bold">static</span> <span style="color: #000099; font-weight: bold">void</span> mastermind(<span style="color: #000099; font-weight: bold">int</span> size, <span style="color: #000099; font-weight: bold">int</span> maxDigit, <span style="color: #000099; font-weight: bold">int</span> maxCoups) {
+        <span style="color: #000099; font-weight: bold">int</span>[] solution = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">int</span>[size];
+        <span style="color: #000099; font-weight: bold">int</span>[] proposition = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">int</span>[size];
+        <span style="color: #000099; font-weight: bold">int</span> nbCoups = <span style="color: #660000; ">0</span>;
+        <span style="color: #000099; font-weight: bold">boolean</span> trouve = <span style="color: #000099; font-weight: bold">false</span>;
+        <span style="color: #000099; font-weight: bold">int</span>[] reponse = <span style="color: #000099; font-weight: bold">new</span> <span style="color: #000099; font-weight: bold">int</span>[<span style="color: #660000; ">2</span>];
+
+        bienvenue(size, maxDigit, maxCoups);
+        tirerCombinaison(solution, size, maxDigit);
+
+        <span style="color: #000099; font-weight: bold">do</span> {
+            demanderCoup(proposition, size);
+            nbCoups++;
+            trouve = compare(size, solution, proposition, reponse);
+            afficheReponse(reponse);
+        } <span style="color: #000099; font-weight: bold">while</span> (!trouve &amp;&amp; (nbCoups &lt; maxCoups));
+
+        <span style="color: #000099; font-weight: bold">if</span> (trouve) {
+            System.out.print(<span style="color: #006600; ">"Bravo ! Vous avez trouvé en "</span>);
+            System.out.print(nbCoups);
+            System.out.println(<span style="color: #006600; ">" coups"</span>);
+        } <span style="color: #000099; font-weight: bold">else</span> {
+            System.out.println(<span style="color: #006600; ">"Désolé vous n'avez pas trouvé..."</span>);
+            System.out.println(<span style="color: #006600; ">"La bonne réponse était "</span>);
+            afficheCombinaison(solution, size);
+            System.out.println(<span style="color: #006600; ">"."</span>);
+        }
+    }
+
+}</pre>
+</div>
+<hr>
+<div>
+    <div style="float:left">
+    	    	    </div>
+    <div style="float:right;text-align:right;font-size:10px;">
+    	Created Tue 20 Aug 2013  3:31 AM PDT (UTC -0700)<br>
+    	Last Modified Mon 14 Oct 2013  1:47 PM PDT (UTC -0700)    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    <script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/spark.js"></script>
+
+<script>window.onerror = function(message, url, lineNum) {
+
+  // First check the URL and line number of the error
+  url = url || window.location.href;
+  // 99% of the time, errors without line numbers arent due to our code,
+  // they are due to third party plugins and browser extensions
+  if (lineNum === undefined || lineNum == null) return;
+  
+  // Now figure out the actual error message
+  // If it's an event, as triggered in several browsers
+  if (message.target && message.type) {
+    message = message.type;
+  }
+  if (!message.indexOf) {
+    message = 'Non-string, non-event error: ' + (typeof message);
+  }
+  
+  var errorDescrip = {
+    message: message,
+    script: url,
+    line: lineNum,
+    url: document.URL
+  }
+  
+  var err = {
+    key: 'page.error.javascript', 
+    value: errorDescrip
+  }
+  
+  window._204 = window._204 || [];
+  window._204.push(err);
+  
+  window._gaq = window._gaq || [];
+  window._gaq.push(err);
+}</script>
+<script type="text/javascript">
+    // SET UP THE MULTITRACKER
+        window.logger = window.Log({level:"error"});
+        var parts = location.host.split(".");
+    while(parts.length > 2) { parts.shift(); }
+
+    window.multitracker = window.MultiTracker({logger:window.logger});
+    window.multitracker.register('204', window._204 = window._204 || []);
+    window.multitracker.register('ga', window._gaq = window._gaq || [], 'google');
+
+    // SET UP GA and 204
+    window._gaq.push(['_setAccount', 'UA-28377374-1']);
+    window._gaq.push(['_setDomainName', 'coursera.org']);
+    window._gaq.push(['_setAllowLinker', true]);  
+    window._gaq.push(['_trackPageview']);
+    
+    // configure 204 with the following settings
+    window._204.push(["client", "spark"]);
+    window._204.push(["user", 5263347]);
+    window._204.push(["domain", "." + parts.join(".")]);
+
+    // set off the first event
+    window._204.push({key:"pageview", val:{}});
+
+    // override our multitracker queues with the ga queue when it is ready
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    
+      ga.onload = ga.onreadystatechange = function() {
+          ga.onreadystatechange = ga.onload = null;
+          window.multitracker.get('ga').queue = window._gaq;
+      };
+    })();
+
+    // override our multitracker queues with the 204 queue when it is ready
+    (function() {
+      var a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;
+      a.src = 'https://eventing.coursera.org/204.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(a, s);
+      a.onload = a.onreadystatechange = function() {
+          a.onreadystatechange = a.onload = null;
+          window.multitracker.get('204').queue = window._204;
+      };
+    })();
+</script>
+
+<script>
+  // Set up shared AB testing object
+  (function() {
+    window.ab = {};
+
+    // we want to share the 204 session cookie with the AB session cookie...
+    var sessionId = AB.makeSession("__204u", {expires:356, domain:"." + location.host});
+        var debug = false;
+    
+    window.ab.user = window.AB(5263347, "user", {debug:debug, tracker:window.multitracker, logger:window.logger});
+    window.ab.session = window.AB(sessionId, "session", {debug:debug, tracker:window.multitracker, logger:window.logger});
+
+    if(window.CourseraABExperiments.user) {
+        window.ab.user.addExperiments(window.CourseraABExperiments.user);
+        window.ab.user.runExperimentsOn("body");
+    }
+
+    if(window.CourseraABExperiments.session) {
+        window.ab.session.addExperiments(window.CourseraABExperiments.session);
+        window.ab.session.runExperimentsOn("body");
+    }
+  })();
+</script>
+
+
+    <script>
+      // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+
+        $("[data-readme]").each(function() {
+            window.ReadMe(this);
+        });
+    </script>
+
+    <script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/modal_focus.js" type="text/javascript"></script>
+    <script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/get_query_parameters.js" type="text/javascript"></script>
+    <script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/signature_track.js" type="text/javascript"></script>
+    <script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/item_list.js" type="text/javascript"></script>
+    <script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/navbar.js" type="text/javascript"></script>
+
+    
+    <script>
+     // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+    </script>
+
+        <script>
+    (function() {
+        $("<style type='text/css'> .coursera-reporter-link { display:inline-block;} </style>").appendTo("head");
+    })();
+    </script>
+    
+    <script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "MML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+<script type="text/javascript">
+(function () {
+
+  function loadMathJax() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://duqnjvq4jwr55.cloudfront.net/2.1/MathJax.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
+  window.loadOrRefreshMathJax = function(domId) {
+    if (window.MathJax) {
+      if (domId) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, domId]);
+      } else {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      }
+    } else {
+      loadMathJax();
+    }
+  }
+})();
+</script>
+    <script type="text/javascript">
+        var site_base_url = "https:\/\/www.coursera.org\/";
+        var site_static_asset_url = "https:\/\/dt5zaw6a98blc.cloudfront.net\/site-static\/";
+        var spark_class_short_name = "intro-java-fr";
+        var spark_class_id = 970401;
+        var spark_class_url = "\/intro-java-fr-001";
+        var spark_signature_url = "https:\/\/class.coursera.org\/intro-java-fr-001\/signature\/";
+
+        var course_strings_name = "Initiation \u00e0 la programmation (en Java)";
+        var student_full_name = "Nicholas Molyneaux";
+    </script>
+
+    
+<script type="text/javascript">$(function() { loadOrRefreshMathJax();})</script>
+<script src="./Wiki - Corrigés des exercices libres   Initiation à la programmation (en Java)_files/textbook_wiki.js"></script>
+
+
+
+
+</body></html>
